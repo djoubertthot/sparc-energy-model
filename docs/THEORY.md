@@ -1,8 +1,8 @@
-# Theory
+# Theory — Physically Motivated Factors
 
-## Unknown External Source
-An unknown external energy source is now included, treated like the other external sources:
+## Added Factors
+- Age factor: accumulation time (f_age ∝ t^0.5)
+- Dust factor: trapping efficiency (where data available)
+- Metallicity factor: dust production proxy (where data available)
 
-$$E_\text{total} = (E_\text{known} + E_\text{unknown}) \times f_\text{amplification} \times f_\text{accumulation}$$
-
-The unknown source is relatively uniform (cosmological-like) and receives the same amplification and accumulation factors.
+These are included only where they have clear physical meaning and data coverage.
