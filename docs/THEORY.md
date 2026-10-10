@@ -1,11 +1,11 @@
 # Theory
 
-## Accumulation Interpretation
-Accumulation is the idea that a temporary increase in mass (from absorbed or trapped radiation) adds energy to the system (potential or kinetic). Even after the radiation leaves, this energy remains in the system in the form of gravitational motion (orbital or dynamical energy).
+## Collective Effect
+A realistic collective reprocessing factor of ×5–10 is included, corresponding to multiple absorption/re-emission cycles in the galactic medium.
 
-This lasting dynamical imprint is what contributes to the effective mass that influences the rotation curve.
+This reduces the missing energy factor from ~550 to ~55–110.
 
 ## Formula
-$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
+$$E(r) = E_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta \times f_\text{collective}$$
 
-where the energy includes both the amplified term and the accumulated contribution.
+with f_collective ≈ 5–10.
