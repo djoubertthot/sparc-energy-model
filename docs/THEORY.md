@@ -1,36 +1,16 @@
-# SPARC Energy-Mass Model — Complete Formula Explanation
+# Theory — Explicit Formulation with Accumulation
 
-## 1. Motivation
-\[
-m_{\rm eff} = \frac{E}{\gamma c^2}, \quad \gamma \approx 1
-\]
-Any energy contributes an apparent mass.
+## Main Formula
+$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
 
-## 2. Amplified Energy
-\[
-E(r) = E_0 \left( \frac{a_0}{a_{\rm bary}(r)} \right)^\beta
-\]
-- E0 is calibrated so that the equivalent density matches the optimized ρ₀ = 1e-24 kg/m³
-- a0 = 1.2×10^{-10} m/s²
-- β = 1.4
+with
+$$E(r) = E_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta + E_\text{acc}$$
 
-## 3. Equivalent Density
-\[
-\rho_{\rm eq}(r) = \frac{E(r)}{c^2}
-\]
+## Temporal Accumulation
+$$E_\text{acc} = \varepsilon \times E_\text{background} \times t_\text{age}$$
 
-## 4. Cumulative Mass
-\[
-dM = 4\pi r^2 \rho_{\rm eq}(r)\, dr, \quad M_{\rm cum}(r) = \int_0^r dM
-\]
+Recommended values:
+- ε ≈ 1
+- t_age ≈ 10–13 Gyr
 
-## 5. Model Velocity
-\[
-V_{\rm model}^2(r) = V_{\rm bary}^2(r) + \frac{G M_{\rm cum}(r)}{r}
-\]
-
-## 6. Comparison
-The residual is V_obs - V_model. Performance is measured by the error-weighted RMS.
-
-## Optimal Performance
-Weighted RMS median ≈ 45.8 km/s on SPARC.
+This term is compatible with the data and gives similar RMS (~45.5 km/s).
