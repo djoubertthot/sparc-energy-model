@@ -1,37 +1,37 @@
 # SPARC Energy-Mass Model
 
-## Theory
-The model explores the idea that apparent dynamical mass discrepancies in galaxies can be related to energy accumulation from radiation (photons, neutrinos, etc.) trapped or traversing baryonic matter over long timescales.
+## Fundamental Motivation
+The model originates from the idea that energy trapped or traversing baryonic matter over long timescales contributes an apparent mass via the relativistic relation:
+\[
+E = \gamma m c^2 \quad \Rightarrow \quad \Delta m = \frac{E}{\gamma c^2}
+\]
 
-Key idea: 
+Photons (and other particles) emitted or absorbed inside stars and galaxies spend significant time interacting with matter. During that time they contribute an effective mass. External radiation (cosmic, radio, neutrino background) can similarly accumulate an apparent mass density.
+
+## Density Amplification Formula
 \[
 \rho_{\rm eq}(r) = \rho_0 \times \left(\frac{a_0}{a_{\rm bary}(r)}\right)^\beta
 \]
 
-where the equivalent density amplifies the baryonic contribution in a way that mimics dark matter effects, anchored to known physical scales (a0 related to cosmological acceleration).
+### Origin of each term
+- **ρ₀**: Characteristic energy density scale. Related to the average energy density of trapped radiation or cosmic backgrounds that can be converted into equivalent mass. Empirically tuned; order of magnitude consistent with baryonic energy densities.
+- **a₀**: Acceleration scale (≈ 1.2×10^{-10} m/s²). Anchored to the cosmological acceleration scale (c × H₀ / 2π or similar). Below this acceleration the trapping/amplification becomes significant.
+- **(a₀ / a_bary)^β**: Amplification factor. In low-acceleration regions (outer disks), the relative contribution of trapped energy grows. β ≈ 1.4 is an empirical exponent that best matches SPARC residuals; physically it may relate to optical depth, scattering, or time-of-flight effects.
+- **Radial integration**: The equivalent density is integrated as dM = 4π R² ρ_eq dR to obtain the cumulative dynamical mass contribution.
 
-## Parameters
-- ρ0 ≈ 2×10^{-24} kg/m³ (single free global parameter)
-- β ≈ 1.4
-- a0 = 1.2×10^{-10} m/s²
-- Y_star ≈ 0.5–0.6
-- Age proxy: binary morphological factor (early-type 1.2, late-type 0.8)
+## Age / Time Factor
+A binary morphological proxy (early-type 1.2, late-type 0.8) is used as a crude stand-in for stellar age / accumulation time. Real ages would allow a more physical ∫ E(t) dt term.
 
 ## Methodology
-1. Load SPARC rotation curves (*_rotmod.dat)
-2. Compute baryonic acceleration a_bary(r)
-3. Apply radial density amplification
-4. Integrate cumulative equivalent mass
-5. Derive model velocity and compute RMS residual
+1. Compute baryonic circular velocity and acceleration from SPARC gas + disk + bulge components.
+2. Apply the amplification to obtain ρ_eq(r).
+3. Integrate to obtain M_eq(r).
+4. Add the resulting V_eq to the baryonic velocity and compute RMS residual against observed rotation curves.
 
-## Results
-Median RMS ≈ 44.9 km/s on ~120 SPARC galaxies with the binary age proxy.
-Comparable to simple phenomenological models; further improvement possible with better age estimates.
-
-## Usage
-See README.md for installation and running instructions.
+## Current Performance
+Median RMS ≈ 44.9 km/s on ~120 galaxies (binary age proxy).
 
 ## Limitations
-- Limited real stellar ages available for SPARC
-- Large external catalogs have poor automatic overlap
-- Model is exploratory and not a complete physical theory
+- The mapping from microscopic trapping time to the macroscopic (a₀/a_bary)^β form is phenomenological.
+- Limited real stellar age data for SPARC prevents a fully time-dependent accumulation model.
+- Not a complete relativistic derivation; exploratory link between energy trapping and apparent mass.
