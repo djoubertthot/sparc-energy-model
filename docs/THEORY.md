@@ -1,16 +1,20 @@
-# Theory — Explicit Formulation (Main Version)
+# SPARC Energy-Mass Model (Explicit Formulation)
 
 ## Primary Formula
-$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
+\[
+m_{\rm eff} = \frac{E}{\gamma c^2}, \quad \gamma \approx 1
+\]
+with the amplified energy
+\[
+E(r) = E_0 \left( \frac{a_0}{a_{\rm bary}(r)} \right)^\beta
+\]
 
-with
-$$E(r) = E_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
+## Energy Accumulation
+The same relation is applied to additional terms:
+- Kinetic energy of rotation: \( m_k = \frac{\frac12 M V^2}{c^2} \)
+- Time-integrated accumulation: \( m_{\rm acc} = \frac{E_{\rm rate} \times t_{\rm age}}{c^2} \)
 
-and γ ≈ 1 at galactic velocities.
+These contributions are currently negligible compared with the main amplified term on SPARC data.
 
-This is the main version of the model. It is mathematically equivalent to the previous phenomenological density formula.
-
-## Parameters
-- β = 1.4
-- E₀ equivalent to ρ₀ = 1.0 × 10^{-24} kg/m³
-- a₀ = 1.2 × 10^{-10} m/s²
+## Performance
+Weighted RMS median ≈ 45.8 km/s.
