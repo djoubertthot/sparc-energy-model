@@ -1,25 +1,26 @@
-# Gros catalogues externes (CALIFA, MaNGA, etc.)
+# Répertoire pour les gros catalogues décompressés
 catalogs/
-califa/
-manga/
-pycasso/
+data/catalogs/
+
+# Autres gros fichiers
+*.zip
 *.fits
 *.hdf5
-*.zip
+*.mrt
 
-# Résultats volumineux (optionnel)
+# Résultats générés
 results/*.png
-results/large_*.csv
+results/*.csv
+
+# SPARC peut être versionné si raisonnable
+!data/rotmod/
+!data/sparc_sample/
 
 # Python
 __pycache__/
 *.pyc
+.venv/
 venv/
-.env
 
 # OS
 .DS_Store
-Thumbs.db
-
-# Note : data/ (SPARC rotmod + table) est versionné
-# si tu veux ignorer seulement certains fichiers SPARC, ajoute-les ici
