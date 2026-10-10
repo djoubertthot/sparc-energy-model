@@ -1,11 +1,11 @@
-# Theory
+# Theory — Updated with Collective Effect
 
-## Collective Effect
-A realistic collective reprocessing factor of ×5–10 is included, corresponding to multiple absorption/re-emission cycles in the galactic medium.
+## Parameters
+- Collective factor f_collective = 5
+- E₀ reduced by the same factor (now equivalent to ρ₀ ≈ 0.2 × 10^{-24} kg/m³)
 
-This reduces the missing energy factor from ~550 to ~55–110.
+## Physical Consistency
+This brings the required energy density closer to the order of magnitude of known sources (stellar + CMB + neutrinos) after accounting for collective reprocessing.
 
 ## Formula
-$$E(r) = E_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta \times f_\text{collective}$$
-
-with f_collective ≈ 5–10.
+$$E(r) = E_0 \times f_\text{collective} \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
