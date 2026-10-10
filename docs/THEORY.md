@@ -1,11 +1,17 @@
-# Theory — Updated with Collective Effect
+# Théorie — Remplacement de E0 par les sources connues
 
-## Parameters
-- Collective factor f_collective = 5
-- E₀ reduced by the same factor (now equivalent to ρ₀ ≈ 0.2 × 10^{-24} kg/m³)
+## Idée
+Remplacer le paramètre calibré E0 par la somme des sources d'énergie connues (étoiles + CMB + neutrinos) multipliée par le facteur collectif.
 
-## Physical Consistency
-This brings the required energy density closer to the order of magnitude of known sources (stellar + CMB + neutrinos) after accounting for collective reprocessing.
+## Formulation
 
-## Formula
-$$E(r) = E_0 \times f_\text{collective} \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
+\[
+E(r) = \left( E_\mathrm{étoiles} + E_\mathrm{CMB} + E_\mathrm{ν} \right) \times f_\mathrm{collectif} \times \left( \frac{a_0}{a_\mathrm{bary}} \right)^\beta
+\]
+
+## Bilan
+- Sources connues + collectif (×5) : facteur manquant restant ~110
+- Le modèle reste phénoménologique pour le facteur restant
+
+## Avantage
+Plus proche de la physique connue, avec un paramètre libre en moins.
