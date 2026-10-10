@@ -1,0 +1,17 @@
+# Données téléchargées (ne pas committer)
+data/
+*.zip
+*.mrt
+*.dat
+results/*.csv
+results/*.png
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
