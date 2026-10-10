@@ -1,12 +1,9 @@
-# Theory — Physically Coherent Formulation
+# Theory
 
-## Core Relation
-$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
+## Galaxy-Dependent Factors
+The best combination is morphological type + inverse radius:
 
-## Energy with Trapping
-$$E(r) = E_\text{base} \times f_\text{trapping}(r)$$
+- Early-type and compact galaxies receive a slightly higher factor.
+- This reduces median WRMS from 45.8 to 43.8 km/s.
 
-where
-$$f_\text{trapping}(r) \propto \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
-
-This keeps the entire model within the E = γ m c² framework while explaining the low-acceleration amplification as a trapping effect.
+The dependence is now part of the model elements.
