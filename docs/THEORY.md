@@ -1,20 +1,14 @@
-# SPARC Energy-Mass Model (Explicit Formulation)
+# Theory — Explicit Formulation
 
-## Primary Formula
-\[
-m_{\rm eff} = \frac{E}{\gamma c^2}, \quad \gamma \approx 1
-\]
-with the amplified energy
-\[
-E(r) = E_0 \left( \frac{a_0}{a_{\rm bary}(r)} \right)^\beta
-\]
+## Main Formula
+$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
 
-## Energy Accumulation
-The same relation is applied to additional terms:
-- Kinetic energy of rotation: \( m_k = \frac{\frac12 M V^2}{c^2} \)
-- Time-integrated accumulation: \( m_{\rm acc} = \frac{E_{\rm rate} \times t_{\rm age}}{c^2} \)
+with
+$$E(r) = E_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
 
-These contributions are currently negligible compared with the main amplified term on SPARC data.
+## Removed Terms
+The rotational kinetic energy contribution (m = E_k / c²) has been removed. It is negligible (order 10^{-7} relative to baryonic mass) and does not affect RMS results.
 
-## Performance
-Weighted RMS median ≈ 45.8 km/s.
+## Parameters
+- β = 1.4
+- E₀ equivalent to ρ₀ = 1.0 × 10^{-24} kg/m³
