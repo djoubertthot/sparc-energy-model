@@ -1,8 +1,14 @@
-# Theory — Physically Motivated Factors
+# SPARC Energy-Mass Model — Physical Consistency
 
-## Added Factors
-- Age factor: accumulation time (f_age ∝ t^0.5)
-- Dust factor: trapping efficiency (where data available)
-- Metallicity factor: dust production proxy (where data available)
+## Note on Age
+Age itself is not a direct physical driver of trapping or refraction. It correlates with dust content and metallicity.
 
-These are included only where they have clear physical meaning and data coverage.
+## Preferred Factors
+Where available, prefer:
+- Dust mass or dust-to-stellar ratio
+- Metallicity
+
+These have a more direct physical link to trapping and opacity.
+
+## Fallback
+When dust or metallicity is unavailable, age (via morphological type) can still be used as a proxy.
