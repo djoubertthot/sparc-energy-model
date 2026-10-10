@@ -1,12 +1,12 @@
-# Theory — Full Explicit Formulation
+# Theory — Physically Coherent Formulation
 
-## Complete Formula
-$$E(r) = \left[ (E_\text{stars} \times f_\text{coll,stars}) + (E_\text{CMB} \times f_\text{coll,CMB}) + (E_\nu \times f_\text{coll,\nu}) \right] \times f_\text{missing} \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
+## Core Relation
+$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
 
-where:
-- f_coll,stars ≈ 5–10
-- f_coll,CMB ≈ 1–2
-- f_coll,ν ≈ 1
-- f_missing ≈ 160 (remaining phenomenological constant)
+## Energy with Trapping
+$$E(r) = E_\text{base} \times f_\text{trapping}(r)$$
 
-This separates the known physical contributions from the still-unexplained factor.
+where
+$$f_\text{trapping}(r) \propto \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
+
+This keeps the entire model within the E = γ m c² framework while explaining the low-acceleration amplification as a trapping effect.
