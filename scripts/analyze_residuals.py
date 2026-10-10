@@ -1,34 +1,22 @@
 """
-Analyze velocity residuals (Vobs - Vmodel).
-
-Computes:
-- Global residual statistics
-- Median residual vs radius
-- RMS distribution
-
-Requires local SPARC data and a recent model run.
+Analyse des résidus pour le modèle avec type + Rd.
 """
-import pandas as pd
 import numpy as np
+import pandas as pd
 from pathlib import Path
-from radial_model import load_rotmod, compute_radial_model
 
-def main():
-    print("=== Velocity residual analysis ===")
-    print("Run locally after generating model curves.")
-    
-    # Placeholder statistics (replace with real computation)
-    print("Expected outputs:")
-    print("- Median residual: ~0 km/s (ideally)")
-    print("- Residual scatter: related to RMS ~45 km/s")
-    print("- Radial trend: check if residuals grow or shrink with R")
-    
-    sample = pd.DataFrame({
-        "Statistic": ["median_residual", "rms_median", "rms_std"],
-        "Value": [1.2, 44.8, 18.5]
-    })
-    sample.to_csv("results/residuals_sample.csv", index=False)
-    print("Sample statistics written to results/residuals_sample.csv")
+def analyze_residuals(results_csv="results/rms_with_type_rd.csv"):
+    try:
+        df = pd.read_csv(results_csv)
+        print("=== Analyse des résidus ===")
+        print(f"WRMS médian : {df['WRMS'].median():.1f} km/s")
+        print(f"WRMS moyen : {df['WRMS'].mean():.1f} km/s")
+        print(f"Écart-type : {df['WRMS'].std():.1f} km/s")
+        print("\nGalaxies avec plus grand RMS :")
+        print(df.nlargest(5, 'WRMS')[['Galaxy', 'WRMS']].to_string(index=False))
+    except FileNotFoundError:
+        print("Fichier de résultats introuvable.")
+        print("Lance d'abord le modèle avec les données SPARC.")
 
 if __name__ == "__main__":
-    main()
+    analyze_residuals()
