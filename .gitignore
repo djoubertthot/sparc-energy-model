@@ -1,10 +1,15 @@
-# Données téléchargées (ne pas committer)
-data/
+# Gros catalogues externes (CALIFA, MaNGA, etc.)
+catalogs/
+califa/
+manga/
+pycasso/
+*.fits
+*.hdf5
 *.zip
-*.mrt
-*.dat
-results/*.csv
+
+# Résultats volumineux (optionnel)
 results/*.png
+results/large_*.csv
 
 # Python
 __pycache__/
@@ -15,3 +20,6 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Note : data/ (SPARC rotmod + table) est versionné
+# si tu veux ignorer seulement certains fichiers SPARC, ajoute-les ici
