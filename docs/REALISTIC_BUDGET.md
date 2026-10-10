@@ -1,13 +1,12 @@
-# Realistic Energy Budget
+# Bilan énergétique réaliste
 
-## Summary
-Starting missing factor: ~550
+## En résumé
+Même en additionnant toute l'énergie connue (étoiles, CMB, neutrinos) et en tenant compte d'un piégeage réaliste dans la galaxie, il manque encore un facteur d'environ **80** pour expliquer les courbes de rotation via \( E = mc^2 \).
 
-After realistic, observationally supported contributions:
-- Dust absorption / modest trapping: ×4–6
-- Cosmic Infrared Background: ×1.4
-
-**Residual missing factor: ~80**
+## Détail
+- Énergie des étoiles + fonds cosmiques : facteur manquant ×550
+- Avec piégeage réaliste (×5) : facteur manquant ×110
+- Avec le fond infrarouge extragalactique : facteur manquant **×80**
 
 ## Conclusion
-With only demonstrable physical processes the residual factor remains approximately 80. Further reduction requires either improved modeling of trapping or acceptance of a phenomenological constant.
+On se rapproche, mais il reste un écart significatif. Le modèle garde donc une constante pour ce facteur résiduel.
