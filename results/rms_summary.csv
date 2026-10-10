@@ -1,0 +1,4 @@
+Configuration,Median_RMS,N_galaxies,Notes
+Binary_age_proxy,44.9,120,Best so far
+No_age,46.8,120,Baseline
+Linear_age,46.1,120,Worse
