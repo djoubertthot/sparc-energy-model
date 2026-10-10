@@ -1,32 +1,28 @@
 # SPARC Energy-Mass Model
 
-## Possible Relativistic Extensions
+## Current Equation
+\[
+\rho_{\rm eq}(r) = \rho_0 \times \left( \frac{a_0}{a_{\rm bary}(r)} \right)^\beta
+\]
 
-The current formula is phenomenological. Additional relativistic effects that could be explored to refine it include:
+The equivalent density is then radially integrated to obtain an additional dynamical mass contribution.
 
-1. **Gravitational redshift / time dilation**
-   - Photons climbing out of a galactic potential lose energy.
-   - The apparent mass contribution of trapped radiation could be weighted by a gravitational redshift factor e^{\Phi/c^{2}}.
+## Parameter Explanations
 
-2. **Post-Newtonian corrections**
-   - Velocity-dependent terms (v^{2}/c^{2}) already partially motivate the original γ factor.
-   - Higher-order terms might appear in the outer disk where orbital speeds are non-negligible relative to the escape speed.
+| Parameter | Optimal value | Meaning |
+|-----------|---------------|---------|
+| **ρ₀** | 1.0 × 10^{-24} kg/m³ | Reference energy/mass density scale. Sets the overall amplitude of the equivalent mass. Empirically calibrated on SPARC. |
+| **β** | 1.4 | Exponent that controls how strongly the equivalent density rises when the baryonic acceleration drops. Higher β = stronger amplification in the outer disk. |
+| **a₀** | 1.2 × 10^{-10} m/s² | Characteristic acceleration scale. Anchored to the cosmological acceleration (order of c × H₀). Below this scale the amplification becomes significant. |
+| **Y★** | 0.5 | Stellar mass-to-light ratio. Converts the observed stellar light (disk + bulge) into baryonic mass. Standard value for SPARC. |
 
-3. **Energy density in the stress-energy tensor**
-   - In GR the source of gravity is the full T_{\mu\nu}, not just rest mass.
-   - A consistent treatment would integrate the energy density of radiation + kinetic energy directly into the Poisson or Einstein equations.
+## Physical Motivation
+- ρ₀ and β together determine how much apparent mass is added by trapped or traversing energy (via E = γ m c²).
+- a₀ marks the transition between baryon-dominated and energy-amplification-dominated regimes.
+- Y★ is a standard astrophysical parameter, not unique to this model.
 
-4. **Frame-dragging / gravitomagnetism**
-   - Rotating galaxies produce a small gravitomagnetic field.
-   - Unlikely to dominate at galactic scales, but could be estimated for completeness.
+## Performance
+With the optimal values above, the median RMS on 145 SPARC galaxies is approximately 44.8 km/s.
 
-5. **Cosmological background**
-   - The cosmic neutrino background and CMB contribute a tiny energy density that is uniform; any amplification would have to come from local trapping or scattering.
-
-### Practical assessment
-- Most of these effects are extremely small at galactic scales (v/c ~ 10^{-3}, Φ/c^{2} ~ 10^{-6}).
-- They are unlikely to replace the current free parameter ρ_{0} or dramatically reduce the RMS scatter without a new amplification mechanism.
-- A more promising direction remains a better microphysical model of photon/neutrino residence time inside baryonic structures, combined with realistic stellar ages.
-
-## Current Status
-The model remains exploratory. Relativistic corrections are interesting for theoretical consistency but are not expected to resolve the quantitative gap with MOND or BTFR on SPARC data by themselves.
+## Notes
+These parameters remain phenomenological. A first-principles derivation linking ρ₀ and β directly to photon/neutrino residence times has not been completed.
