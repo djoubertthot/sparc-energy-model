@@ -1,13 +1,9 @@
-# Facteurs par terme
+# Per-Term Physical Factors
 
-## Point important
-Les tests précédents ont appliqué des facteurs globaux.
+Factors are applied only to the terms where they are physically justified:
 
-## Approche plus cohérente
-Appliquer des dépendances spécifiques à chaque source d'énergie :
-- Étoiles : piégeage fort, accumulation
-- CMB/neutrinos : piégeage faible
-- Source inconnue : uniforme avec amplification
+- Accumulation time affects residual and stellar energy terms
+- Trapping/density affects the amplification factor
+- No global multipliers
 
-## Conclusion
-Une application séparée par terme est plus physique, mais les tests globaux ont déjà exploré les principales dépendances.
+This ensures physical consistency.
