@@ -1,21 +1,19 @@
-# Comparaison avec d'autres modèles
+# Comparison with Other Models on SPARC
 
-## Performance sur SPARC (RMS médian approximatif)
+## Current Energy Accumulation Model
+- Weighted RMS median: ~45.8 km/s
+- Global free parameters: β = 1.4, ρ₀ = 1.0 × 10^{-24} kg/m³
+- Exploratory phenomenological model
 
-| Modèle | RMS médian | Paramètres libres | Commentaire |
-|---------|---------------|---------------------|-------------|
-| **Modèle énergie (ce travail)** | **~45 km/s** (pondéré) | ρ0, β | Phénoménologique, scatter plus grand |
-| MOND / RAR | ~10–15 km/s | a0, Y★ | Très bon, BTFR serrée |
-| BTFR (V^4 ∝ M_bary) | ~10–20 km/s | Aucun (relation empirique) | Excellente prédiction |
-| Matière noire (NFW) | ~15–25 km/s | Plusieurs par galaxie | Bon mais nombreux paramètres |
-| Baryonique seul | ~50–80 km/s | Y★ | Trop faible |
+## Literature Comparisons
 
-## Points clés
-- Le modèle énergie améliore clairement le baryonique seul, mais reste derrière MOND et la BTFR.
-- MOND et la BTFR ont un scatter beaucoup plus faible.
-- Le modèle énergie a l'avantage d'une motivation physique (E = γ m c²), mais la formulation actuelle est encore semi-empirique.
+| Model | Typical performance on SPARC | Free parameters | Notes |
+|-------|------------------------------|-----------------|-------|
+| **BTFR** | Intrinsic scatter ~0.1 dex (~10-15% in velocity) | 0-1 (Υ★) | Global relation, not radial |
+| **MOND / RAR** | Residuals ~0.057 dex (~13%) | a₀ + Υ★ | Excellent individual curve fits |
+| **Burkert (cored DM)** | Low reduced χ² | 2-3 per galaxy | Best DM fits |
+| **NFW** | Higher χ² than cored | 2 per galaxy | Often too cuspy |
+| **Energy model** | RMS ~46 km/s | 2 global | Higher scatter, exploratory |
 
-## Références
-- Lelli et al. (2016, 2017) : SPARC + BTFR
-- McGaugh et al. (2016) : RAR / MOND
-- Ce dépôt : modèle énergie-masse
+## Summary
+The energy model is qualitatively consistent with low-acceleration amplification but quantitatively less precise than MOND or cored DM profiles on SPARC data.
