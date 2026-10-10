@@ -1,30 +1,32 @@
 # SPARC Energy-Mass Model
 
-## How E = γ m c² Explains Rotation Curves
+## Possible Relativistic Extensions
 
-In the standard Newtonian picture, the observed flat rotation curves require an additional unseen mass (dark matter). 
+The current formula is phenomenological. Additional relativistic effects that could be explored to refine it include:
 
-The present approach starts from the relativistic relation:
-\[
-E = \gamma m c^2 \quad \Rightarrow \quad m_{\rm app} = \frac{E}{\gamma c^2}
-\]
+1. **Gravitational redshift / time dilation**
+   - Photons climbing out of a galactic potential lose energy.
+   - The apparent mass contribution of trapped radiation could be weighted by a gravitational redshift factor e^{\Phi/c^{2}}.
 
-Any energy (photons trapped in stellar cores for long times, radio waves traversing the galaxy, neutrino background, kinetic energy of the stars themselves) contributes an apparent mass while it is present in the system.
+2. **Post-Newtonian corrections**
+   - Velocity-dependent terms (v^{2}/c^{2}) already partially motivate the original γ factor.
+   - Higher-order terms might appear in the outer disk where orbital speeds are non-negligible relative to the escape speed.
 
-### Why this produces flat curves
-1. In the inner regions, baryonic mass dominates and the acceleration is high → little relative amplification.
-2. In the outer regions, the baryonic acceleration a_bary drops. The time spent by radiation crossing or trapped in the low-density material increases, and the relative contribution of the energy-derived mass grows.
-3. The phenomenological form 
-\[
-\rho_{\rm eq}(r) = \rho_0 \left(\frac{a_0}{a_{\rm bary}(r)}\right)^\beta
-\]
-captures this: when a_bary ≪ a0 the equivalent density rises, adding enough mass to keep V(r) roughly constant.
+3. **Energy density in the stress-energy tensor**
+   - In GR the source of gravity is the full T_{\mu\nu}, not just rest mass.
+   - A consistent treatment would integrate the energy density of radiation + kinetic energy directly into the Poisson or Einstein equations.
 
-Thus the “missing mass” is reinterpreted as the cumulative apparent mass of the energy that has been interacting with the baryons over cosmic time. The factor γ is absorbed into the calibration of ρ0 and β; the essential point is that energy contributes to inertia.
+4. **Frame-dragging / gravitomagnetism**
+   - Rotating galaxies produce a small gravitomagnetic field.
+   - Unlikely to dominate at galactic scales, but could be estimated for completeness.
 
-## Limitations
-This remains a phenomenological mapping. A full derivation from microscopic photon/neutrino transport to the macroscopic (a0/a_bary)^β law has not been completed.
+5. **Cosmological background**
+   - The cosmic neutrino background and CMB contribute a tiny energy density that is uniform; any amplification would have to come from local trapping or scattering.
 
----
+### Practical assessment
+- Most of these effects are extremely small at galactic scales (v/c ~ 10^{-3}, Φ/c^{2} ~ 10^{-6}).
+- They are unlikely to replace the current free parameter ρ_{0} or dramatically reduce the RMS scatter without a new amplification mechanism.
+- A more promising direction remains a better microphysical model of photon/neutrino residence time inside baryonic structures, combined with realistic stellar ages.
 
-(Previous sections on parameters, methodology and results remain unchanged.)
+## Current Status
+The model remains exploratory. Relativistic corrections are interesting for theoretical consistency but are not expected to resolve the quantitative gap with MOND or BTFR on SPARC data by themselves.
