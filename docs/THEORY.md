@@ -1,16 +1,19 @@
-# Theory
+# SPARC Energy-Mass Model
 
-## Conceptual Origin
-The model is motivated by the relativistic relation:
+## Explicit Formulation
+The model is based on:
+\[
+m_{\rm eff} = \frac{E}{\gamma c^2}
+\]
+with
+\[
+E(r) = E_0 \left( \frac{a_0}{a_{\rm bary}(r)} \right)^\beta
+\]
 
-$$m_\text{eff} = \frac{E}{\gamma c^2}$$
+When γ ≈ 1 and E0 is calibrated to match the previous ρ₀, the numerical results are identical to the phenomenological form.
 
-Even though the explicit kinetic energy term is numerically negligible at galactic velocities (v ≪ c), the idea that energy contributes to effective mass remains the conceptual foundation.
+## Current Performance
+Weighted RMS median ≈ 45.8 km/s (identical for both writings).
 
-## Phenomenological Formula
-$$\rho_\text{eq}(r) = \rho_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
-
-The parameters ρ₀ and β absorb the microscopic details of energy trapping and the Lorentz factor.
-
-## Comparison
-See COMPARISON.md for performance relative to MOND, BTFR, and DM halos.
+## Parallel Testing
+See scripts/parallel_emc2_variant.py
