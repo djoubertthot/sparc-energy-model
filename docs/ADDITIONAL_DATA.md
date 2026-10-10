@@ -10,4 +10,6 @@
 - Dust mass (IR catalogs)
 
 ## Next Steps
-Integrate available quantities first, then enrich with ages and dust where possible.
+Ages in Gyr are still unpublished for this sample. Dust masses, SFRs and
+metallicities are filled in `data/sparc_sample/sparc_enriched.csv` where
+DustPedia or De Vis+2019 matches a SPARC galaxy.

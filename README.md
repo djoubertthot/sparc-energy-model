@@ -14,8 +14,10 @@ pip install -r requirements.txt
 ## Data
 ```bash
 python scripts/download_sparc.py
+python scripts/enrich_sparc.py
 ```
-Place rotmod files in `data/rotmod/` if not auto-downloaded.
+Rotation curves land in `data/rotmod/`. The cross-matched table is
+`data/sparc_sample/sparc_enriched.csv`.
 
 ## Running
 ```bash

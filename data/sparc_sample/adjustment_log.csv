@@ -1,0 +1,448 @@
+Galaxy,quantity,previous,adopted,unit,source,reason
+CamB,coordinates,,"73.27960,67.09920",deg,SIMBAD,coordinates are absent from SPARC Table 1
+DDO064,Mstar,78500000.0,40738027.7804113,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+DDO064,coordinates,,"147.59487,31.48828",deg,SIMBAD,coordinates are absent from SPARC Table 1
+DDO154,Mstar,26500000.0,16595869.074375598,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+DDO154,Mdust,,114601.11987640212,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+DDO154,SFR,,0.009979513603223059,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+DDO154,coordinates,,"193.52187,27.14963",deg,SIMBAD,coordinates are absent from SPARC Table 1
+DDO161,Mstar,274000000.0,154881661.89124796,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+DDO161,coordinates,,"195.81973,-17.42303",deg,SIMBAD,coordinates are absent from SPARC Table 1
+DDO168,Mstar,95500000.0,107151930.52376048,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+DDO168,coordinates,,"198.61666,45.91976",deg,SIMBAD,coordinates are absent from SPARC Table 1
+DDO170,Mstar,271500000.0,194984459.97580415,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+DDO170,Mdust,,996826.7715533389,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+DDO170,SFR,,0.02687165309391079,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+DDO170,12+logOH,,7.93800000000048,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+DDO170,coordinates,,"198.97408,25.43615",deg,SIMBAD,coordinates are absent from SPARC Table 1
+ESO079-G014,Mstar,25866500000.0,28840315031.266117,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+ESO079-G014,coordinates,,"15.71445,-65.60990",deg,SIMBAD,coordinates are absent from SPARC Table 1
+ESO116-G012,Mstar,2146000000.0,2570395782.7688646,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+ESO116-G012,coordinates,,"48.26978,-57.35725",deg,SIMBAD,coordinates are absent from SPARC Table 1
+ESO444-G084,Mstar,35500000.0,13489628.825916532,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+ESO444-G084,coordinates,,"204.33329,-28.04500",deg,SIMBAD,coordinates are absent from SPARC Table 1
+ESO563-G021,Mstar,155588500000.0,181970085860.99826,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+ESO563-G021,coordinates,,"131.82075,-20.03566",deg,SIMBAD,coordinates are absent from SPARC Table 1
+F568-1,Mstar,3126000000.0,3438600000.0000005,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F568-3,Mstar,4173000000.0,4506840000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F568-V1,Mstar,1912500000.0,2065500000.0000002,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F571-V1,Mstar,924500000.0,998460000.0000001,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F574-1,Mstar,3268500000.0,4249050000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F574-2,Mstar,1438500000.0,1783740000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F579-V1,Mstar,5924000000.0,7464240000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+F583-1,Mstar,493000000.0,532440000.00000006,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+IC2574,Mstar,508000000.0,331131121.4825908,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+IC2574,Mdust,,1116338.4527906994,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+IC2574,SFR,,0.11488346063822095,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+IC2574,coordinates,,"157.09840,68.41207",deg,SIMBAD,coordinates are absent from SPARC Table 1
+IC4202,Mstar,89874500000.0,117489755493.95303,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+IC4202,coordinates,,"197.13162,24.70079",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0024,Mstar,1944500000.0,1949844599.7580414,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0024,coordinates,,"2.48559,-24.96313",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0055,Mstar,2314000000.0,758577575.0291852,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0055,coordinates,,"3.72334,-39.19663",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0100,Mstar,1616000000.0,1778279410.0389228,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0100,coordinates,,"6.01182,16.48639",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0247,Mstar,3666000000.0,2951209226.66639,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0247,coordinates,,"11.78564,-20.76040",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0289,Mstar,36032500000.0,39810717055.34969,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0289,Mdust,,27007896.11610035,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC0289,SFR,,2.3006726321122515,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC0289,12+logOH,,8.597000000000701,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC0289,coordinates,,"13.17652,-31.20583",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0300,Mstar,1461000000.0,1047128548.0508986,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0300,Mdust,,5264480.812262452,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC0300,SFR,,0.2161819931943115,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC0300,12+logOH,,8.270000000000591,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC0300,coordinates,,"13.72269,-37.68421",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0801,Mstar,156285000000.0,147910838816.8207,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0801,coordinates,,"30.93664,38.25878",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC0891,Mstar,69170000000.0,97723722095.58112,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC0891,Mdust,,49460082.03856149,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC0891,SFR,,1.9757783333224095,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC0891,coordinates,,"35.63711,42.34832",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC1003,Mstar,3410000000.0,2238721138.568338,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC1003,SFR,,0.27703798098744103,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC1003,coordinates,,"39.82039,40.87229",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC1090,Mstar,36022500000.0,38904514499.42805,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC1090,SFR,,1.1421892292143927,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC1090,coordinates,,"41.64140,-0.24712",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC1705,Mstar,266500000.0,218776162.3949552,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC1705,Mdust,,69949.67033854332,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC1705,SFR,,0.08128772133905399,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC1705,12+logOH,,8.089000000000532,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC1705,coordinates,,"73.55611,-53.36096",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2366,Mstar,118000000.0,48977881.93684466,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2366,coordinates,,"112.21855,69.21079",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2403,Mstar,5020500000.0,2951209226.66639,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2403,Mdust,,4288493.827306531,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC2403,SFR,,0.7112197463995112,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC2403,12+logOH,,8.297000000000601,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC2403,coordinates,,"114.21391,65.60268",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2683,Mstar,40207500000.0,45708818961.48752,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2683,SFR,,0.3893646899612947,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC2683,coordinates,,"133.17211,33.42183",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2841,Mstar,94060500000.0,125892541179.41661,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2841,Mdust,,36887777.67853933,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC2841,SFR,,0.8919555173929647,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC2841,12+logOH,,8.695000000000732,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC2841,coordinates,,"140.51116,50.97659",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2903,Mstar,40931500000.0,28840315031.266117,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2903,coordinates,,"143.04213,21.50083",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2915,Mstar,320500000.0,186208713.66628656,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2915,Mdust,,33262.70339077887,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC2915,SFR,,0.04159184228625723,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC2915,12+logOH,,8.120836131010153,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC2915,coordinates,,"141.54805,-76.62632",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2955,Mstar,159711000000.0,144543977074.5928,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2955,coordinates,,"145.31924,35.88226",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2976,Mstar,1685500000.0,2137962089.5022326,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2976,Mdust,,1017452.2340306769,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC2976,SFR,,0.12473284755110851,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC2976,12+logOH,,8.390000000000631,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC2976,coordinates,,"146.81441,67.91638",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC2998,Mstar,75451000000.0,57543993733.71567,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC2998,SFR,,4.403873506050495,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC2998,coordinates,,"147.18179,44.08145",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3109,Mstar,97000000.0,30902954.32513592,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3109,coordinates,,"150.77865,-26.15957",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3198,Mstar,19139500000.0,18620871366.628654,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3198,Mdust,,16440005.678517897,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC3198,SFR,,1.666361308869289,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC3198,12+logOH,,8.50600000000067,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC3198,coordinates,,"154.97913,45.54969",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3521,Mstar,42418000000.0,48977881936.84457,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3521,Mdust,,20663246.925949402,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC3521,SFR,,1.2129514387575733,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC3521,12+logOH,,8.604000000000703,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC3521,coordinates,,"166.45237,-0.03590",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3726,Mstar,35117000000.0,34673685045.2531,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3726,SFR,,1.6389012611282074,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3726,coordinates,,"173.33807,47.02924",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3741,Mstar,14000000.0,8128305.161640995,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3741,coordinates,,"174.02397,45.28415",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3769,Mstar,9339500000.0,9332543007.969925,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3769,SFR,,0.3841959561800904,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3769,coordinates,,"174.43364,47.89300",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3877,Mstar,36267500000.0,51286138399.13659,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3877,SFR,,1.187279008573525,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3877,coordinates,,"176.53242,47.49450",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3893,Mstar,29262500000.0,46234750000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3893,SFR,,2.0162890400110616,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3893,coordinates,,"177.15920,48.71079",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3917,Mstar,10983000000.0,12302687708.123812,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3917,SFR,,0.19703926981040695,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3917,coordinates,,"177.68937,51.82442",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3949,Mstar,19033500000.0,15135612484.362072,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3949,SFR,,1.3949312042040634,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3949,coordinates,,"178.42388,47.85872",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3953,Mstar,70650500000.0,107151930523.76048,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3953,Mdust,,63614598.379676014,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC3953,SFR,,1.2008687032916254,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC3953,coordinates,,"178.45420,52.32680",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3972,Mstar,7176500000.0,7943282347.242822,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3972,SFR,,0.23150095632731735,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3972,coordinates,,"178.93788,55.32073",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC3992,Mstar,113466000000.0,147910838816.8207,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC3992,SFR,,1.6349499835090893,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC3992,coordinates,,"179.39985,53.37472",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4010,Mstar,8596500000.0,7244359600.749891,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4010,SFR,,0.31228619737002256,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC4010,coordinates,,"179.65830,47.26131",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4013,Mstar,39547000000.0,40738027780.41122,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4013,Mdust,,18154758.19083118,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4013,SFR,,0.28227484059215535,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4013,coordinates,,"179.63090,43.94702",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4051,Mstar,47634000000.0,41686938347.03346,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4051,Mdust,,18887806.13549911,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4051,SFR,,4.112646709977868,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4051,12+logOH,,8.531000000000677,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4051,coordinates,,"180.79004,44.53130",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4068,Mstar,118000000.0,77624711.66286911,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4068,SFR,,0.013003417928996825,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC4068,coordinates,,"181.01361,52.59057",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4085,Mstar,10862000000.0,12022644346.174131,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4085,SFR,,0.652458343884309,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC4085,coordinates,,"181.34471,50.35295",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4088,Mstar,53643000000.0,51286138399.13659,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4088,SFR,,3.5855252845388175,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC4088,coordinates,,"181.39260,50.53918",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4100,Mstar,29697000000.0,31622776601.683792,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4100,Mdust,,14860909.932019508,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4100,SFR,,1.6195624734238128,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4100,12+logOH,,8.520000000000675,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4100,coordinates,,"181.53584,49.58231",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4138,Mstar,22055500000.0,28840315031.266117,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4138,Mdust,,7175623.290102393,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4138,SFR,,0.30171218371610836,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4138,12+logOH,,8.531000000000677,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4138,coordinates,,"182.37417,43.68524",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4157,Mstar,52810000000.0,72443596007.49892,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4157,SFR,,2.0162890400110616,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC4157,coordinates,,"182.76819,50.48468",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4183,Mstar,5419000000.0,4466835921.509635,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4183,Mdust,,9374817.776496919,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4183,SFR,,0.36832555232786607,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4183,12+logOH,,8.341000000000616,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4183,coordinates,,"183.32025,43.69827",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4214,Mstar,570500000.0,707945784.3841373,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4214,Mdust,,613434.4277038599,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4214,SFR,,0.17287950724755366,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4214,12+logOH,,8.076701662761861,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4214,coordinates,,"183.91323,36.32689",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4217,Mstar,42649500000.0,81283051616.40996,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4217,Mdust,,27698018.742790822,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4217,SFR,,1.4975980171451082,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4217,12+logOH,,8.53900000000068,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4217,coordinates,,"183.96208,47.09179",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4389,Mstar,10664000000.0,10715193052.376049,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4389,SFR,,0.5553321148224623,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC4389,coordinates,,"186.39624,45.68467",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC4559,e_distance,2.7,0.8289306334778566,Mpc,z0MGS Leroy+2019,tighter distance uncertainty; SPARC value kept
+NGC4559,Mstar,9688500000.0,8317637711.026709,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC4559,Mdust,,8888489.019791389,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC4559,SFR,,1.0970191553523323,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC4559,12+logOH,,8.214000000000572,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC4559,coordinates,,"188.99017,27.95996",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5005,Mstar,89360000000.0,128824955169.31323,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5005,SFR,,1.7841441998034546,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC5005,coordinates,,"197.73463,37.05894",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5033,Mstar,55254500000.0,56234132519.034904,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5033,Mdust,,41401830.30360326,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC5033,SFR,,3.363543368252086,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC5033,12+logOH,,8.543000000000681,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC5033,coordinates,,"198.36473,36.59365",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5055,Mstar,76461000000.0,83176377110.26709,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5055,Mdust,,53986998.67483254,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC5055,SFR,,2.956202261807749,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC5055,12+logOH,,8.581000000000696,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC5055,coordinates,,"198.95531,42.02937",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5371,Mstar,170196500000.0,223872113856.83377,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5371,coordinates,,"208.91641,40.46177",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5585,Mstar,1471500000.0,1023292992.2807536,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5585,SFR,,0.12625057015402802,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC5585,coordinates,,"214.95085,56.72905",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5907,Mstar,87712500000.0,104712854805.08984,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5907,Mdust,,71631771.38846202,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC5907,SFR,,3.070798316850359,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC5907,12+logOH,,8.485000000000664,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC5907,coordinates,,"228.97370,56.32885",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC5985,Mstar,104364000000.0,141253754462.27554,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC5985,SFR,,2.1707916359966233,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC5985,coordinates,,"234.90439,59.33200",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC6015,Mstar,16064499999.999998,14125375446.227554,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC6015,SFR,,0.8653875977993969,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC6015,coordinates,,"237.85516,62.31006",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC6195,Mstar,195538000000.0,162181009735.8933,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC6195,coordinates,,"249.13569,39.02789",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC6503,Mstar,6422500000.0,6165950018.61481,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC6503,SFR,,0.18579271612008522,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC6503,coordinates,,"267.36009,70.14433",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC6674,Mstar,107327000000.0,89125093813.3744,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC6674,SFR,,1.6739882385231508,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC6674,coordinates,,"279.64120,25.37511",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC6789,Mstar,50000000.0,34673685.045253165,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC6789,coordinates,,"289.17154,63.97331",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC6946,Mstar,33086500000.0,16595869074.375631,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC6946,Mdust,,20089439.569349647,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC6946,SFR,,4.75660876608513,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC6946,12+logOH,,8.549000000000685,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC6946,coordinates,,"308.71805,60.15368",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC7331,Mstar,125315500000.0,154881661891.24796,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC7331,Mdust,,63014393.04104902,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC7331,SFR,,4.382005930127266,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC7331,12+logOH,,8.562000000000689,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC7331,coordinates,,"339.26688,34.41578",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC7793,Mstar,3525000000.0,2754228703.3381634,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC7793,Mdust,,3376926.0665169507,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+NGC7793,SFR,,0.4332006818293629,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+NGC7793,12+logOH,,8.408000000000637,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+NGC7793,coordinates,,"359.45731,-32.59103",deg,SIMBAD,coordinates are absent from SPARC Table 1
+NGC7814,Mstar,37264500000.0,54954087385.76248,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+NGC7814,SFR,,0.12751965285472347,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+NGC7814,coordinates,,"0.81228,16.14523",deg,SIMBAD,coordinates are absent from SPARC Table 1
+PGC51017,coordinates,,"214.25715,43.50376",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC00128,coordinates,,"3.46208,35.99417",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC00191,Mstar,1002000000.0,831763771.1026709,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC00191,coordinates,,"5.02167,10.88000",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC00634,Mstar,1494500000.0,954992586.0214369,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC00634,coordinates,,"15.35488,7.62599",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC00731,coordinates,,"17.68325,49.60219",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC00891,Mstar,187000000.0,218776162.3949552,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC00891,coordinates,,"20.32875,12.41194",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC01230,Mstar,3810000000.0,2754228703.3381634,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC01230,coordinates,,"26.38438,25.52147",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC01281,Mstar,176500000.0,144543977.0745928,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC01281,coordinates,,"27.38213,32.58783",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02023,Mstar,654000000.0,719400000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02023,coordinates,,"38.32583,33.49111",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02259,Mstar,862500000.0,983249999.9999999,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02259,coordinates,,"41.98091,37.53848",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02455,Mstar,1824500000.0,660693448.0075965,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02455,coordinates,,"44.92855,25.24121",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02487,Mstar,244977500000.0,331131121482.59076,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02487,coordinates,,"45.42638,35.20564",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02885,Mstar,201762500000.0,230009249999.99997,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02885,coordinates,,"58.26025,35.58949",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02916,Mstar,62076500000.0,58884365535.55884,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02916,coordinates,,"60.64132,71.70587",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC02953,Mstar,129758999999.99998,181970085860.99826,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC02953,coordinates,,"61.94536,69.81242",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC03205,Mstar,56821000000.0,63095734448.019424,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC03205,coordinates,,"74.06196,30.05228",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC03546,Mstar,50668000000.0,60801600000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC03546,Mdust,,10001691.040717514,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC03546,SFR,,1.4763134381910161,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC03546,coordinates,,"102.53612,60.84580",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC03580,Mstar,6633000000.0,4466835921.509635,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC03580,coordinates,,"103.87904,69.56314",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC04278,Mstar,653500000.0,380189396.32056123,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC04278,Mdust,,464471.6353933021,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC04278,SFR,,0.09668027877868535,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC04278,12+logOH,,8.069000000000525,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGC04278,coordinates,,"123.49545,45.74215",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC04305,Mdust,,110187.77937288271,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC04305,SFR,,0.08245768323420846,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC04305,12+logOH,,7.772000000000425,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGC04305,coordinates,,"124.77078,70.72030",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC04325,Mstar,1012999999.9999999,891250938.1337441,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC04325,coordinates,,"124.83556,50.00961",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC04483,Mstar,6500000.0,2951209.226666384,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC04483,Mdust,,2692.4409014508974,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC04483,SFR,,0.0036374578722249804,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC04483,12+logOH,,7.588646139684629,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGC04483,coordinates,,"129.26250,69.77528",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC04499,Mstar,776000000.0,853600000.0000001,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC04499,coordinates,,"129.42287,51.65238",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05005,Mstar,2049999999.9999998,2089296130.8540409,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05005,coordinates,,"141.12250,22.27473",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05253,Mstar,85791000000.0,87096358995.60797,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05253,coordinates,,"147.59264,72.27865",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05414,Mstar,561500000.0,478630092.32263803,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05414,coordinates,,"150.98827,40.76151",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05716,Mstar,294000000.0,204173794.46695316,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05716,coordinates,,"157.93028,25.30761",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05721,Mstar,265500000.0,158489319.2461111,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05721,coordinates,,"158.07177,27.66866",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05750,Mstar,1668000000.0,1000000000.0,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05750,coordinates,,"158.93802,20.99024",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05764,Mstar,42500000.0,24547089.156850286,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05764,coordinates,,"159.17976,31.54727",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05829,Mstar,282000000.0,208929613.0854041,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05829,coordinates,,"160.67827,34.44928",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05918,Mstar,116500000.0,61659500.18614822,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05918,coordinates,,"162.40172,65.53361",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05986,Mstar,2347500000.0,1548816618.9124796,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05986,coordinates,,"163.12972,36.61878",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC05999,Mstar,1692000000.0,1698243652.461746,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC05999,coordinates,,"163.24438,7.61980",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06399,Mstar,1148000000.0,1023292992.2807536,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06399,coordinates,,"170.84675,50.89264",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06446,Mstar,494000000.0,588843655.3555884,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06446,coordinates,,"171.66861,53.74667",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06614,Mstar,62175000000.0,72443596007.49892,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06614,coordinates,,"174.81197,17.14367",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06628,Mstar,1869500000.0,1445439770.745928,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06628,coordinates,,"175.02396,45.94215",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06667,Mstar,698500000.0,1995262314.9688828,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06667,coordinates,,"175.60962,51.59801",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06786,Mstar,36703500000.0,46773514128.71981,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06786,coordinates,,"177.28940,27.02202",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06787,Mstar,49128000000.0,63095734448.019424,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06787,Mdust,,18027121.637694594,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC06787,SFR,,0.4248009588227455,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC06787,coordinates,,"177.31404,56.08435",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06818,Mstar,794000000.0,724435960.0749891,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06818,coordinates,,"177.69574,45.80733",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06917,Mstar,3416000000.0,3467368504.5253096,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06917,coordinates,,"179.11987,50.42834",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06923,Mstar,1445000000.0,1174897554.9395304,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06923,coordinates,,"179.20636,53.16034",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06930,Mstar,4466000000.0,4168693834.7033467,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06930,coordinates,,"179.32241,49.28352",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06973,Mstar,26935000000.0,61659500186.148094,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06973,coordinates,,"179.71761,42.72240",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC06983,Mstar,2649000000.0,2691534803.9269137,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC06983,coordinates,,"179.78639,52.70779",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07089,Mstar,1792500000.0,1905460717.9632444,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07089,Mdust,,7457273.201536951,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC07089,SFR,,0.07599406744132953,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC07089,12+logOH,,8.35294197,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGC07089,coordinates,,"181.49061,43.14336",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07125,Mstar,1356000000.0,977237220.9558111,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07125,coordinates,,"182.17298,36.80230",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07151,Mstar,1142000000.0,794328234.7242821,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07151,Mdust,,924944.2291532891,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC07151,SFR,,0.07701897341744464,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC07151,12+logOH,,8.144000000000549,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGC07151,coordinates,,"182.49417,46.45718",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07232,Mstar,56500000.0,28840315.031266056,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07232,coordinates,,"183.43652,36.63403",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07261,Mstar,876500000.0,1445439770.745928,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07261,coordinates,,"183.80983,20.65908",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07323,Mstar,2054500000.0,2238721138.568338,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07323,coordinates,,"184.37576,45.61931",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07399,Mstar,578000000.0,457088189.6148752,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07399,coordinates,,"185.15883,46.29102",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07524,Mstar,1218000000.0,426579518.8015934,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07524,coordinates,,"186.45360,33.54686",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07559,Mstar,54500000.0,38018939.632056125,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07559,coordinates,,"186.77319,37.14177",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07577,Mstar,22500000.0,63095734.448019296,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07577,coordinates,,"186.92042,43.49556",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07603,Mstar,188000000.0,109647819.61431828,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07603,coordinates,,"187.18385,22.82043",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07608,Mstar,132000000.0,128824955.16931322,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07608,coordinates,,"187.18366,43.22383",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07690,Mstar,429000000.0,463320000.00000006,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07690,coordinates,,"188.11206,42.70412",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC07866,Mstar,62000000.0,45708818.96148752,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC07866,coordinates,,"190.56314,38.50162",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC08286,Mstar,627500000.0,457088189.6148752,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC08286,Mdust,,1486762.8001373278,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGC08286,SFR,,0.030135763721574615,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGC08286,12+logOH,,8.076000000000526,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGC08286,coordinates,,"198.04918,44.03815",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC08490,Mstar,508499999.99999994,371535229.0971728,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC08490,coordinates,,"202.40212,58.41873",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC08550,Mstar,144500000.0,144543977.0745928,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC08550,coordinates,,"203.51180,47.91547",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC08699,Mstar,25151000000.0,31622776601.683792,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC08699,coordinates,,"206.28628,41.50339",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC08837,Mstar,250500000.0,186208713.66628656,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC08837,coordinates,,"208.69001,53.90557",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC09037,Mstar,34307000000.000004,19054607179.632442,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC09037,coordinates,,"212.12127,7.05800",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC09133,Mstar,141463000000.0,173780082874.93762,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC09133,coordinates,,"214.03229,35.34386",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC09992,Mstar,168000000.0,72443596.00749905,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC09992,coordinates,,"235.44939,67.25426",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC10310,Mstar,870500000.0,940140000.0000001,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC10310,SFR,,0.01912073831353728,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+UGC10310,coordinates,,"244.07458,47.04531",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC11455,Mstar,187161000000.0,245470891568.50336,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC11455,coordinates,,"292.48461,72.11293",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC11557,Mstar,6050500000.0,4570881896.148752,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC11557,SFR,,0.4509984610457477,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+UGC11557,coordinates,,"306.00285,60.19484",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC11820,Mstar,485000000.0,582000000.0,Msun,Duey+2025 W1 M/L on L[3.6],constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC11820,coordinates,,"327.36833,14.23111",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC11914,Mstar,75014000000.0,89125093813.3744,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC11914,SFR,,0.7826919932518127,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+UGC11914,coordinates,,"331.96833,31.35934",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC12506,Mstar,69785500000.0,74131024130.09161,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC12506,coordinates,,"349.87706,16.07479",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC12632,Mstar,650500000.0,1170897121.2232666,Msun,z0MGS Leroy+2019,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC12632,coordinates,,"352.49392,40.99222",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGC12732,Mstar,833500000.0,954992586.0214369,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGC12732,SFR,,0.09620418567212655,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+UGC12732,coordinates,,"355.16608,26.23642",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGCA281,coordinates,,"186.56539,48.49398",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGCA442,Mstar,70000000.0,36307805.4770101,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGCA442,Mdust,,2382.363766607799,Msun,DustPedia THEMIS Nersesian+2019,dust mass is absent from SPARC
+UGCA442,SFR,,0.011867130892439848,Msun/yr,DustPedia THEMIS Nersesian+2019,SFR is absent from SPARC
+UGCA442,12+logOH,,7.63119645,dex,De Vis+2019 PG16S,gas-phase metallicity is absent from SPARC
+UGCA442,coordinates,,"355.93979,-31.95677",deg,SIMBAD,coordinates are absent from SPARC Table 1
+UGCA444,Mstar,6000000.0,15488166.189124828,Msun,Marasco+2025 SED,constant M/L = 0.5 is imprecise; using a per-galaxy SED or color M/L
+UGCA444,SFR,,0.0033300607117461144,Msun/yr,z0MGS Leroy+2019,SFR is absent from SPARC
+UGCA444,coordinates,,"0.49130,-15.46390",deg,SIMBAD,coordinates are absent from SPARC Table 1
