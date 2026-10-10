@@ -1,20 +1,13 @@
-# Adding Physical Data
+# Additional Data Integration Plan
 
-## Data to Add
-- Stellar ages (from SED fitting or resolved stars)
-- Dust masses (Herschel, Spitzer)
-- Gas surface densities (HI + H2)
+## Immediately Available
+- Gas mass (HI)
+- Surface density (L / Rd²)
+- Gas fraction
 
-## Sources
-- SPARC ancillary catalogs
-- DustPedia
-- MaNGA / CALIFA for ages
-- Literature compilations
+## Partially Available
+- Stellar ages (SED catalogs)
+- Dust mass (IR catalogs)
 
-## Plan
-1. Identify overlapping galaxies
-2. Add columns to the local table
-3. Re-test physical factors
-
-## Status
-Feasible for a subset of SPARC galaxies.
+## Next Steps
+Integrate available quantities first, then enrich with ages and dust where possible.
