@@ -1,9 +1,8 @@
 # Theory
 
-## Galaxy-Dependent Factors
-The best combination is morphological type + inverse radius:
+## Unknown External Source
+An unknown external energy source is now included, treated like the other external sources:
 
-- Early-type and compact galaxies receive a slightly higher factor.
-- This reduces median WRMS from 45.8 to 43.8 km/s.
+$$E_\text{total} = (E_\text{known} + E_\text{unknown}) \times f_\text{amplification} \times f_\text{accumulation}$$
 
-The dependence is now part of the model elements.
+The unknown source is relatively uniform (cosmological-like) and receives the same amplification and accumulation factors.
