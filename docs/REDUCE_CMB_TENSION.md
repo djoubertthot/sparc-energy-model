@@ -1,12 +1,12 @@
-# Réduire la tension CMB
+# Reducing CMB Tension
 
-## Pistes
-1. Augmenter la masse baryonique effective (IMF, gaz)
-2. Revoir l'interprétation des pics acoustiques
-3. Explorer des modifications cosmologiques modestes
+## Approaches
+1. Better census of CGM and WHIM baryons
+2. Residual uncertainties in Ω_b
+3. Mild scale-dependent effects (speculative)
 
-## Réalisme
-Les pistes 1 sont les plus directes. Les autres sont plus spéculatives.
+## Assessment
+The most promising path without new physics is improved baryon accounting at large scales.
 
-## Conclusion
-La tension peut être réduite, mais pas éliminée facilement avec la physique actuelle.
+## Status
+Open research direction.
