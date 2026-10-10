@@ -1,19 +1,16 @@
-# SPARC Energy-Mass Model
+# Theory — Explicit Formulation (Main Version)
 
-## Explicit Formulation
-The model is based on:
-\[
-m_{\rm eff} = \frac{E}{\gamma c^2}
-\]
+## Primary Formula
+$$m_\text{eff}(r) = \frac{E(r)}{\gamma c^2}$$
+
 with
-\[
-E(r) = E_0 \left( \frac{a_0}{a_{\rm bary}(r)} \right)^\beta
-\]
+$$E(r) = E_0 \times \left(\frac{a_0}{a_\text{bary}(r)}\right)^\beta$$
 
-When γ ≈ 1 and E0 is calibrated to match the previous ρ₀, the numerical results are identical to the phenomenological form.
+and γ ≈ 1 at galactic velocities.
 
-## Current Performance
-Weighted RMS median ≈ 45.8 km/s (identical for both writings).
+This is the main version of the model. It is mathematically equivalent to the previous phenomenological density formula.
 
-## Parallel Testing
-See scripts/parallel_emc2_variant.py
+## Parameters
+- β = 1.4
+- E₀ equivalent to ρ₀ = 1.0 × 10^{-24} kg/m³
+- a₀ = 1.2 × 10^{-10} m/s²

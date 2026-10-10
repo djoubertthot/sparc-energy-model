@@ -2,14 +2,14 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-# Optimal parameters from grid search
+# Explicit formulation: m_eff = E / (γ c²) with γ ≈ 1
 A0 = 1.2e-10
 BETA = 1.4
-RHO0 = 1.0e-24   # kg/m³
-YSTAR = 0.5
-GLOBAL_NORM = 1.0
+E0 = 1.0e-24 * (3e8)**2  # equivalent to ρ0 = 1e-24
+YSTAR = 0.6
 
 G = 6.67430e-11
+C = 2.99792458e8
 MSUN = 1.98847e30
 KPC = 3.085677581e19
 
@@ -19,7 +19,7 @@ def load_rotmod(filepath):
     cols = ['R', 'Vobs', 'eVobs', 'Vgas', 'Vdisk', 'Vbul', 'SBdisk', 'SBbul']
     return pd.DataFrame(data, columns=cols[:n])
 
-def compute_radial_model(df, Ystar=YSTAR, rho0=RHO0, beta=BETA):
+def compute_radial_model(df, Ystar=YSTAR, beta=BETA, e0=E0):
     R_kpc = df['R'].values
     R = R_kpc * KPC
     Vgas = df['Vgas'].values * 1000.0
@@ -30,7 +30,9 @@ def compute_radial_model(df, Ystar=YSTAR, rho0=RHO0, beta=BETA):
     Vbar2 = np.maximum(Vbar2, 1.0)
     a_bar = Vbar2 / np.maximum(R, 1e15)
 
-    rho_eff = rho0 * (A0 / np.maximum(a_bar, 1e-13))**beta
+    # Explicit energy density
+    E = e0 * (A0 / np.maximum(a_bar, 1e-13))**beta
+    rho_eff = E / (C**2)
 
     dR = np.gradient(R)
     dM = 4 * np.pi * R**2 * rho_eff * dR
@@ -60,15 +62,12 @@ def process_directory(rotmod_dir, max_files=None):
             results.append({
                 'Galaxy': f.stem.replace('_rotmod', ''),
                 'N': len(df),
-                'RMS': rms,
-                'Vobs_last': modeled['Vobs'].iloc[-1],
-                'Vmodel_last': modeled['Vmodel'].iloc[-1]
+                'RMS': rms
             })
         except Exception:
             continue
     return pd.DataFrame(results)
 
 if __name__ == '__main__':
-    res = process_directory("data/rotmod/")
-    print(res["RMS"].describe())
-    res.to_csv("results/rms_results.csv", index=False)
+    res = process_directory('data/rotmod/')
+    print(res['RMS'].describe())
