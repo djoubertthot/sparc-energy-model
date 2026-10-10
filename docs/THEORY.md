@@ -1,14 +1,8 @@
-# SPARC Energy-Mass Model — Physical Consistency
+# Theory
 
-## Note on Age
-Age itself is not a direct physical driver of trapping or refraction. It correlates with dust content and metallicity.
+## Primary Physical Drivers
+- Dust mass: direct effect on photon trapping
+- Metallicity: controls dust production and opacity
+- Density / size: optical depth and residence time
 
-## Preferred Factors
-Where available, prefer:
-- Dust mass or dust-to-stellar ratio
-- Metallicity
-
-These have a more direct physical link to trapping and opacity.
-
-## Fallback
-When dust or metallicity is unavailable, age (via morphological type) can still be used as a proxy.
+Age is used only as a proxy when direct measurements are unavailable.
