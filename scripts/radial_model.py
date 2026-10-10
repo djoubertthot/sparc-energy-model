@@ -2,11 +2,12 @@ import numpy as np
 import pandas as pd
 from pathlib import Path
 
-# Parameters
+# Optimal parameters from grid search
 A0 = 1.2e-10
 BETA = 1.4
-YSTAR = 0.6
-GLOBAL_NORM = 1e-3
+RHO0 = 1.0e-24   # kg/m³
+YSTAR = 0.5
+GLOBAL_NORM = 1.0
 
 G = 6.67430e-11
 MSUN = 1.98847e30
@@ -18,7 +19,7 @@ def load_rotmod(filepath):
     cols = ['R', 'Vobs', 'eVobs', 'Vgas', 'Vdisk', 'Vbul', 'SBdisk', 'SBbul']
     return pd.DataFrame(data, columns=cols[:n])
 
-def compute_radial_model(df, Ystar=YSTAR, norm=GLOBAL_NORM):
+def compute_radial_model(df, Ystar=YSTAR, rho0=RHO0, beta=BETA):
     R_kpc = df['R'].values
     R = R_kpc * KPC
     Vgas = df['Vgas'].values * 1000.0
@@ -29,12 +30,11 @@ def compute_radial_model(df, Ystar=YSTAR, norm=GLOBAL_NORM):
     Vbar2 = np.maximum(Vbar2, 1.0)
     a_bar = Vbar2 / np.maximum(R, 1e15)
 
-    log_local = BETA * np.log(A0 / np.maximum(a_bar, 1e-13))
-    rho_eff = np.exp(log_local - np.max(log_local))
+    rho_eff = rho0 * (A0 / np.maximum(a_bar, 1e-13))**beta
 
     dR = np.gradient(R)
     dM = 4 * np.pi * R**2 * rho_eff * dR
-    M_cum = np.cumsum(dM) * norm * MSUN
+    M_cum = np.cumsum(dM)
 
     Veq2 = G * M_cum / np.maximum(R, 1e15)
     Vmodel = np.sqrt(Vbar2 + np.maximum(Veq2, 0)) / 1000.0
@@ -69,6 +69,6 @@ def process_directory(rotmod_dir, max_files=None):
     return pd.DataFrame(results)
 
 if __name__ == '__main__':
-    res = process_directory('data/rotmod/')
-    print(res['RMS'].describe())
-    res.to_csv('results/rms_results.csv', index=False)
+    res = process_directory("data/rotmod/")
+    print(res["RMS"].describe())
+    res.to_csv("results/rms_results.csv", index=False)
