@@ -106,8 +106,14 @@ que les priors gaussiens ne capturent pas.
   non circulaire 10 %) ; entre 8 et 9,6 kpc le déclin subsiste (−0,35 dex, la loi exigerait
   i ≈ 33° contre 48-60° ajustés) mais le terme non circulaire monte à 20-40 % et le rms double ;
   au-delà de 10 kpc le terme radial égale ou dépasse la rotation : ce gaz ne mesure pas le
-  potentiel. Le cas défavorable se réduit à un anneau de 8-10 kpc, à 0,03-0,04 a₀, à trancher
-  avec un modèle 3D du cube.
+  potentiel. Le modèle 3D du cube MHONGOOSE à 26″ (`scripts/ngc7793_cube3d.py`,
+  `results/ngc7793_cube3d.md`) tranche : entre 8 et 10 kpc la vitesse circulaire vaut 71-86 km/s
+  contre 101 pour la loi (−0,15 à −0,31 dex), et la courbe de la loi, ajustée avec inclinaison,
+  angle de position, dispersion et terme radial libres, ou avec i = 33° imposé, reste 12 à 16 %
+  au-dessus du meilleur modèle. Ce n'est pas un effet de champ externe (champ 2M++ de NGC 7793 au
+  17ᵉ centile de SPARC, et ESO 444-G084, dans un champ plus fort, sans déficit à 0,007 a₀). Le
+  déficit est réel, propre à cette galaxie, sur un anneau dont le gaz porte 20-30 % de mouvements
+  radiaux : défaut de la loi ou gaz hors d'équilibre, le second favorisé sans être prouvé.
 - LITTLE THINGS en 3D, Iorio et al. 2017, trois naines communes. Inclinaisons à 1-4°,
   dérive asymétrique de 9 à 20 km/s au dernier point. Les vitesses 3D reproduisent SPARC à
   1-3 %, et a₀ vaut 1,06, 0,56 et 0,63·10⁻¹⁰ pour DDO 154, DDO 168 et NGC 2366, avec χ²/N
