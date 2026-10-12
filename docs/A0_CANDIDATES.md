@@ -51,7 +51,13 @@ expliquer ; a₀ ne suit pas l'expansion.
 T_U = ħa/(2πck) ; l'horizon de de Sitter rayonne à T_dS = ħ√(Λ/3)/(2πk). Pour a = a₀ :
 T_U = 4,9·10⁻³¹ K, T_dS = 2,3·10⁻³⁰ K, rapport 0,21. L'argument dit que l'inertie change
 quand T_U devient inférieure à T_dS, c'est-à-dire pour a < c√(Λ/3) = 5,7·10⁻¹⁰ ; il
-place a₀ un facteur 5 en dessous sans dériver ce facteur.
+place a₀ un facteur 5 en dessous sans dériver ce facteur. Testé le 2026-10-12
+(`scripts/test_desitter_nu.py`, `results/test_desitter_nu.md`) : l'inertie proportionnelle à
+l'excès de température T(a) − T(0) avec T ∝ √(a² + a_Λ²) donne en forme fermée
+ν(y) = √(1 + 1/y). Sur la relation binnée de SPARC, χ²/bins 8,65 et 0,044 dex de résidu,
+entre la famille n = 1,4 (5,5 ; 0,038) et la RAR (17,7 ; 0,029), loin devant Verlinde
+(73 ; 0,066) : la forme passe. L'échelle prédite, a₀ = 2a_Λ = 1,14·10⁻⁹, est 9,5 fois trop
+grande : le vide fixe la forme et l'ordre de grandeur, pas le préfacteur.
 
 **Verlinde 2016, gravité émergente.** L'entropie d'intrication de l'espace de de Sitter,
 déplacée par la matière, produit une gravité supplémentaire g_D² = (cH₀/6) g_B. Dans le
