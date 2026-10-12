@@ -129,9 +129,9 @@ dépend des masses baryoniques à 0,1 dex près. a₀ est constant : c'est la ve
 | Observable | Lecture A, inertie modifiée | Lecture B, composante sombre |
 |---|---|---|
 | Effet de champ externe dans SPARC | prédit, mais sous le seuil de mesure à e_N ≈ 10⁻⁴ a₀ d'après l'équation de champ ; non détecté dans notre reproduction (plage dynamique 0,24 dex seulement) | absent |
-| Vitesses de lentille à 0,5-1 Mpc, lentilles de faible masse | déclin de 30 à 50 % prédit par QUMOND avec le champ 2M++ (`results/efe_qumond_lensing.md`) | plates |
+| Vitesses de lentille à 0,3-1 Mpc, lentilles de faible masse | déclin de 30 à 50 % prédit par QUMOND avec le champ 2M++ ; mesurées plates : e_N < 6·10⁻⁵ a₀, champ 2M++ exclu à 3,9σ formels, ~3σ avec les systématiques corrélées (`results/efe_lensing_mpc.md`) | plates, comme observé |
 | Binaires larges Gaia sous a₀ | déviation prédite | newtoniennes |
-| Amas de galaxies | manque un facteur 2 | ajustés |
+| Amas de galaxies | manque, avec le a₀ des galaxies, un facteur 4-7 en masse entre 15 et 600 kpc, 2 à R500, 1,3 à R200 (`results/cluster_rar.md`) | ajustés |
 | Troisième pic du CMB, BAO | exige une extension relativiste (Skordis & Złośnik 2021) | prédits |
 | Amas du Boulet | difficile | naturel |
 | Courbes de rotation à z > 1 | selon a₀(z) | évolution par concentration des baryons |
@@ -140,6 +140,17 @@ La théorie v2 est morte si l'une de ces lignes est tranchée contre les deux le
 à la fois : par exemple des binaires larges newtoniennes **et** une relation d'accélération
 dont la dispersion intrinsèque reste nulle à toutes les masses, ce qu'aucun halo ne produit
 sans réglage.
+
+État au 13 octobre 2026 : deux lignes sont tranchées contre la lecture A seule. La lentille à
+0,3-1 Mpc (`scripts/efe_lensing_mpc.py`) : le bin de plus faible masse de Mistele et al. 2024
+(log M_b = 10,1, r_t = 300 kpc pour le champ 2M++) reste plat jusqu'à 1 Mpc là où QUMOND
+prédit 30 à 50 % de déclin, et les quatre bins combinés donnent e_N < 6·10⁻⁵ a₀ ; comme la part
+du champ 2M++ venant de moins de 10 Mpc n'est que 3,7·10⁻⁵, l'isolement des lentilles ne peut
+pas expliquer un champ si faible. Les amas (`scripts/cluster_rar.py`) : avec le a₀ des galaxies,
+la loi manque un facteur 4-7 en masse entre 15 et 600 kpc (CLASH), 2 à R500 et 1,3 à R200
+(X-COP), la masse manquante étant concentrée dans les cœurs. La lecture B absorbe les deux. La
+lecture A ne survit que sous une forme sans effet de champ externe, avec une composante
+supplémentaire dans les cœurs d'amas : ce n'est plus QUMOND ni RMOND tels quels.
 
 ## 7. Ce que devient E = γmc²
 

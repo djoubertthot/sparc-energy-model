@@ -138,12 +138,34 @@ de champ QUMOND (`scripts/efe_qumond_lensing.py`, `results/efe_qumond_lensing.md
 n'apparaît qu'au-delà de r_t = √(G M_b/e_N), soit 300 à 1200 kpc pour le champ 2M++ des
 galaxies SPARC (1,5·10⁻⁴ a₀) : V(300 kpc)/V_plat = 0,87, 1,00 et 1,01 pour M_b = 10¹⁰, 5·10¹⁰
 et 2·10¹¹, et le déclin se produit entre 0,5 et 1 Mpc. La platitude à 300 kpc n'exclut donc pas
-une théorie de champ de type MOND ; elle la teste à 0,5-1 Mpc, où les données de Mistele et al.
-ne voient pas de déclin mais perdent leur fiabilité. Les deux lectures de la loi, dynamique
-modifiée avec son effet de champ externe ou composante sombre sans lui, ne sont pas séparées par
-les données actuelles (correction du 2026-10-12 d'une conclusion antérieure). Le rayon viriel médian
+une théorie de champ de type MOND ; elle la teste à 0,3-1 Mpc (correction du 2026-10-12 d'une
+conclusion antérieure tirée de la formule 1D). Test fait le 2026-10-13 bin par bin sur la table
+de Mistele et al. (`scripts/efe_lensing_mpc.py`, `results/efe_lensing_mpc.md`), amplitude libre
+par bin pour que seule la forme au-delà de r_t compte : le bin de plus faible masse
+(log M_b = 10,1, r_t = 300 kpc pour le champ 2M++) reste plat jusqu'à 1 Mpc et donne
+e_N < 5·10⁻⁵ a₀ à 2σ, le champ 2M++ exclu à Δχ² = 14 dans ce bin seul ; les trois bins plus
+massifs ont leur r_t à 0,7-1,5 Mpc, là où les données s'arrêtent, et acceptent aussi bien 0 que
+1,5·10⁻⁴. Les quatre bins combinés à moins de 1 Mpc donnent e_N < 6·10⁻⁵ a₀ et excluent
+1,5·10⁻⁴ à 3,9σ formels, environ 3σ si les systématiques sont corrélées entre rayons. Comme la
+part du champ 2M++ venant de moins de 10 Mpc n'est que 3,7·10⁻⁵, l'isolement des lentilles ne
+peut pas abaisser e_N sous 10⁻⁴. Les deux lectures de la loi sont donc séparées par ces données :
+la lecture « composante sombre », ou une loi sans effet de champ externe, tient ; QUMOND et RMOND
+avec leur effet de champ externe sont en tension à 3σ. Le rayon viriel médian
 des ajustements NFW est 165 kpc : les lentilles traversent le rayon viriel sans voir le déclin
 en √(ln r / r) qu'un halo ΛCDM y impose.
+
+**Au-delà des galaxies, les amas** (`scripts/cluster_rar.py`, `results/cluster_rar.md`) : sur
+les 20 amas CLASH de Tian et al. 2020 (14-600 kpc, lentille forte et faible contre étoiles de la
+galaxie centrale et gaz X) et les 11 amas X-COP d'Eckert et al. 2019, 2022 (masses
+hydrostatiques et SZ, fractions de gaz à R2500, R500, R200), la loi avec le a₀ des galaxies
+manque +0,57 dex en accélération à 100-300 kpc, +0,35 à R2500, +0,15 à R500 et +0,06 à R200,
+soit en masse 4 à 7 fois les baryons observés entre 15 et 600 kpc, 1,8 fois à R500 et 1,3 fois
+à R200. Le « facteur 2 » de la littérature est la valeur à R500 ; la masse manquante est
+concentrée dans les cœurs, où g_bar vaut 0,1-0,8 a₀ et où la loi n'amplifie presque rien.
+Les amas forment leur propre séquence de forme RAR mais d'échelle plus grande (CLASH 15 a₀,
+X-COP 2,6 a₀ : pas de a₀ unique même entre amas). Une théorie de type MOND exige donc une
+composante supplémentaire, 10¹³-10¹⁴ M☉ par amas, plus concentrée que le gaz chaud ; une lecture
+« composante sombre » n'exige rien de plus.
 
 Bilan : la dispersion de a₀ par galaxie se décompose en distances, un tiers ; inclinaisons,
 dominantes dans quelques cas comme ESO 444-G084 ; et un résidu de l'ordre de 0,2-0,3 dex
@@ -160,8 +182,11 @@ demande les bilans de masse de gaz à 10 % et des échantillons 3D de la taille 
 3. Le signe et l'amplitude de l'effet de champ externe, absent dans une lecture
    « composante sombre », présent dans une lecture « inertie ». Non détecté dans les disques,
    où l'équation de champ ne prédit rien de mesurable à e_N ≈ 10⁻⁴ a₀ ; non testé par la lentille
-   à 300 kpc, où QUMOND prédit moins de 13 % de déclin ; décidé par la lentille à 0,5-1 Mpc des
-   lentilles de faible masse, où QUMOND prédit 30 à 50 % de déclin.
+   à 300 kpc, où QUMOND prédit moins de 13 % de déclin ; tranché par la lentille à 0,3-1 Mpc des
+   lentilles de faible masse, où QUMOND prédit 30 à 50 % de déclin et où la mesure est plate :
+   e_N < 6·10⁻⁵ a₀, champ 2M++ exclu à ~3σ (`results/efe_lensing_mpc.md`). Une dérivation doit
+   donc livrer un effet de champ externe nul, ou trois fois plus faible que celui d'une équation
+   de champ QUMOND, et dire ce qui remplit les cœurs d'amas (`results/cluster_rar.md`).
 4. La dépendance temporelle, H(z) ou Λ, testable à z = 1 à 2.
 
 Aucune des trois dérivations ne livre les quatre. C'est l'état exact du problème ouvert.

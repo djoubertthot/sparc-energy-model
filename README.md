@@ -21,8 +21,13 @@ dans `archive_v1/` ; la release 1.0 en reste l'état de référence et n'est pas
   50 % (`paper/SPARC_HALOS_DRAFT.md`, `results/halo_*.md`, `results/lensing_vflat.md`).
 - **L'effet de champ externe** n'est pas détecté dans les disques, où l'équation de champ ne
   prédit rien de mesurable ; la lentille à 300 kpc ne le teste pas non plus (moins de 13 % de
-  déclin prédit par QUMOND), seule la lentille à 0,5-1 Mpc le fera (`results/test_efe.md`,
-  `results/lensing_vflat.md`, `results/efe_qumond_lensing.md`).
+  déclin prédit par QUMOND) ; la lentille à 0,3-1 Mpc le teste et ne le voit pas : les lentilles
+  de 10¹⁰ M☉ restent plates là où QUMOND avec le champ 2M++ prédit 30 à 50 % de déclin,
+  e_N < 6·10⁻⁵ a₀, champ 2M++ exclu à ~3σ (`results/test_efe.md`, `results/efe_qumond_lensing.md`,
+  `results/efe_lensing_mpc.md`).
+- **Les amas** : avec le a₀ des galaxies, la loi manque un facteur 4-7 en masse entre 15 et
+  600 kpc (CLASH), 2 à R500 et 1,3 à R200 (X-COP) ; le « facteur 2 » est la valeur à R500, et
+  la masse manquante est concentrée dans les cœurs (`results/cluster_rar.md`).
 - **a₀ ne suit pas l'expansion.** Sur 380 galaxies à z = 0,6-5,7 en amplitude et 31 courbes
   en gaz froid à z = 1,5-4,8 en forme, a₀ ∝ H(z)ⁿ donne n = 0,05 (−0,25 à 0,30) ; a₀ est
   constant, l'échelle est celle de Λ (`docs/A0_ORIGIN.md`, `results/a0_highz*.md`).
@@ -45,9 +50,10 @@ python scripts/enrich_sparc.py        # table croisée data/sparc_sample/sparc_e
 
 Les sources de la table enrichie sont décrites dans `docs/DATA_SOURCES.md`. Les données
 externes utilisées par les tests (cartes de moments MHONGOOSE, LITTLE THINGS 3D, catalogue
-2M++, distances CF4, tables à haut redshift) sont dans `data/external/` et `data/catalogs/`
-avec, pour le haut redshift, un README qui donne la provenance de chaque table et signale
-celles qui sont des lectures de figures.
+2M++, distances CF4, tables à haut redshift, vitesses de lentille KiDS, profils d'amas) sont
+dans `data/external/` et `data/catalogs/` avec, pour le haut redshift, la lentille et les amas,
+un README qui donne la provenance de chaque table et signale celles qui sont des lectures de
+figures.
 
 ## Reproduire
 
@@ -62,7 +68,11 @@ une figure et un CSV par galaxie.
 | `test_efe.py`, `test_diversity.py` | effet de champ externe (catalogue 2M++), diversité à 2 kpc |
 | `a0_universality.py`, `a0_universality_cf4.py` | a₀ par galaxie, distances CF4 |
 | `mhongoose_rings.py`, `ngc7793_warp.py`, `littlethings3d_a0.py` | cinématique HI profonde et 3D |
+| `ngc7793_cube_cut.py`, `ngc7793_cube3d.py` | modèle 3D du cube MHONGOOSE de NGC 7793 (anneaux, faisceau, modèles de déclin, gauchissement, loi) |
 | `lensing_vflat.py` | halos extrapolés à 50-300 kpc contre la lentille faible |
+| `efe_qumond_lensing.py`, `efe_lensing_mpc.py` | effet de champ externe QUMOND : prédiction, puis test bin par bin sur les vitesses de lentille à 0,3-2,5 Mpc |
+| `parse_cluster_tables.py`, `cluster_rar.py` | la loi dans les amas CLASH et X-COP, facteur manquant par rayon |
+| `test_desitter_nu.py` | fonction ν du vide de de Sitter (Milgrom 1999) sur SPARC |
 | `a0_highz.py`, `a0_highz_coldgas.py`, `a0_highz_shape.py`, `a0_highz_shape2.py` | a₀ à haut redshift, amplitude puis forme des courbes |
 | `final_model.py`, `final_baryonic_model.py`, `run_rms_tests*.py`, `optimize_constraints.py`, `temporary_mass_budget.py` | l'audit du modèle 1.0 |
 
