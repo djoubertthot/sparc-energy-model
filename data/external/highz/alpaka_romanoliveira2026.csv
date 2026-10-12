@@ -1,0 +1,4 @@
+ID,name,z,line,Reff_gas,nRE,V_ext,e_V_ext_up,e_V_ext_lo,sigma_ext,V_max,logMstar_fit,e_logMstar_up,e_logMstar_lo,logMbulge,logMdisc,logMgas,e_logMgas_up,e_logMgas_lo,Reff_stellar_disc,Reff_bulge,BT,inc_ALMA,e_inc_up,e_inc_lo,logMstar_SED
+1,GOODS-S 15503,0.561,CO(2-1),5.0,3.8,202,5,6,9,204,10.6,0.1,0.1,9.39,10.56,9.6,0.3,0.6,3.86,0.4,0.05,47,6,8,10.04
+3,COSMOS 1648673,1.445,CO(5-4),1.74,4.2,346,22,18,58,366,10.9,0.1,0.1,10.34,10.75,10.2,0.3,0.5,1.92,0.6,0.20,28,7,6,10.51
+13,COSMOS 3182,2.103,[CI](2-1),5.1,4.2,236,32,30,33,263,10.7,0.1,0.2,10.08,10.62,10.0,0.4,0.6,3.34,0.6,0.16,24,8,6,11.08

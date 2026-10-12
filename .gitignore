@@ -24,3 +24,7 @@ venv/
 
 # OS
 .DS_Store
+
+# Archive junk
+__MACOSX/
+.DS_Store
