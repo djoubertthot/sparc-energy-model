@@ -1,6 +1,6 @@
 # RMS tests of the tag-1.0 baryonic model (2026-10-10)
 
-Model: scripts/final_baryonic_model.py, Y*=0.88, gas x2.7, CGM beta profile M=3.8, r_c=6 kpc, beta=0.68, E0=0 (docs/CONSOLIDATED_NOTES.md). Sample: 171 SPARC galaxies with at least 5 points. RMS in km/s; bias = median over galaxies of the mean residual Vobs-Vmodel; outer_R20 = same for points beyond 20 kpc; inner_2Rd = same for points inside 2 R_disk; claimed = value quoted in the docs.
+Model: scripts/final_baryonic_model.py, Y*=0.88, gas x2.7, CGM beta profile M=3.8, r_c=6 kpc, beta=0.68, E0=0 (archive_v1/docs/CONSOLIDATED_NOTES.md). Sample: 171 SPARC galaxies with at least 5 points. RMS in km/s; bias = median over galaxies of the mean residual Vobs-Vmodel; outer_R20 = same for points beyond 20 kpc; inner_2Rd = same for points inside 2 R_disk; claimed = value quoted in the docs.
 
 | group | test | N | median | wmedian | mean | p16 | p84 | bias | outer_R20 | inner_2Rd | claimed |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -26,7 +26,7 @@ Model: scripts/final_baryonic_model.py, Y*=0.88, gas x2.7, CGM beta profile M=3.
 | by type | final, intermediate 5<=T<=7 | 48 | 17.6 | 16.3 | 25.6 | 9.6 | 41.3 | -0.6 | -25.4 | 3.5 | 31 |
 | by type | final, late types T>=8 | 77 | 12.8 | 12.0 | 15.8 | 7.1 | 26.8 | 0.5 | 10.9 | 0.7 | 22 |
 | subsample | final, Q<=2 and 40<i<75 | 93 | 15.3 | 14.9 | 26.7 | 8.2 | 41.2 | -3.1 | -8.4 | -1.7 |  |
-| reference | MOND simple mu, a0=1.2e-10, Y*=0.5/0.7, 0 free parameters | 171 | 14.0 | 12.4 | 17.3 | 6.8 | 29.5 | -4.2 | -10.8 | -3.5 | ~15 (MODEL_COMPARISON.md) |
+| reference | MOND simple mu, a0=1.2e-10, Y*=0.5/0.7, 0 free parameters | 171 | 14.0 | 12.4 | 17.3 | 6.8 | 29.5 | -4.2 | -10.8 | -3.5 | ~15 (archive_v1/docs/MODEL_COMPARISON.md) |
 
 ## Y* x gas scan at the final CGM, median RMS
 

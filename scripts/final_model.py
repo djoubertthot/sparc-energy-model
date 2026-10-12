@@ -1,8 +1,8 @@
-"""Final documented model, built from the formula in docs/THEORY.md.
+"""Final documented model, built from the formula in archive_v1/THEORY_v1.md.
 
     E_total(r) = (E_known(r) + E_unknown) * f_amplification(r) * f_accumulation
     m_eff      = E_total / (gamma c^2)                      (docs/FORM_AND_E_MC2.md)
-    f_amplification(r) = (a0 / a_bary(r))^beta              (THEORY.md, beta = 1.4)
+    f_amplification(r) = (a0 / a_bary(r))^beta              (archive_v1/THEORY_v1.md, beta = 1.4)
     f_accumulation     = age proxy x size dependence        (docs/AGE_RD_PHYSICS.md)
 
 Every number comes from the repository documents:
@@ -11,15 +11,15 @@ Every number comes from the repository documents:
 - CMB 1.2e54 J x1.5, neutrinos 0.8e54 J x1              (scripts/spectral_estimate.py)
 - CIB brings the missing factor from 110 to 80          (docs/REALISTIC_BUDGET.md)
 - E_known + E_unknown = M_bary c^2 for the reference    (docs/MISSING_ENERGY_SUMMARY.md)
-- unknown source uniform, cosmological-like             (docs/THEORY.md, COSMOLOGICAL_BACKGROUND.md)
-- Y* = 0.5 for disk and bulge, a0 = 1.2e-10, beta = 1.4 (THEORY.md)
+- unknown source uniform, cosmological-like             (archive_v1/THEORY_v1.md, archive_v1/docs/COSMOLOGICAL_BACKGROUND.md)
+- Y* = 0.5 for disk and bulge, a0 = 1.2e-10, beta = 1.4 (archive_v1/THEORY_v1.md)
 
 Two normalisations are documented:
 - "budget": the literal energy inventory above, no free parameter
 - "calibrated": the hybrid form where f_missing is chosen so that the uniform
   part equals the phenomenological rho0 (scripts/test_hybrid_rms.py, MISSING_FACTOR.md)
 
-The equivalent density is integrated in spherical shells, as THEORY.md states.
+The equivalent density is integrated in spherical shells, as archive_v1/THEORY_v1.md states.
 """
 import numpy as np
 import pandas as pd

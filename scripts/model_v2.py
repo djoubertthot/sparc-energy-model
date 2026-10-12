@@ -1,4 +1,4 @@
-"""Model v2: the formulation that survives the audit (see docs/THEORY_V2.md).
+"""Model v2: the formulation that survives the audit (see docs/THEORY.md).
 
 Baryons   : V_bar^2 = Vgas|Vgas| + Yd Vdisk|Vdisk| + Yb Vbul|Vbul|,  g_bar = V_bar^2 / r
 Law       : g_obs = nu(g_bar / a0) g_bar,     a0 = 1.2e-10 m/s^2

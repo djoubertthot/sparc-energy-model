@@ -96,7 +96,7 @@ def add(test, group, s, note=""):
 # 1. normalisations ---------------------------------------------------------
 add("budget: literal inventory, f_missing=80, no free parameter", "final", run(final, norm="budget"), "rho_uniform=1.6e-22")
 add("budget, without internal stellar part", "final", run(final, norm="budget", include_internal=False))
-add("calibrated: uniform part = rho0 = 1e-24 (THEORY.md)", "final", run(final, rho0=1e-24), "hybrid, f_missing matched")
+add("calibrated: uniform part = rho0 = 1e-24 (archive_v1/THEORY_v1.md)", "final", run(final, rho0=1e-24), "hybrid, f_missing matched")
 add("calibrated: uniform part = rho0 = 2e-24 (MEMORY.md)", "final", run(final, rho0=2e-24))
 add("calibrated 1e-24, gamma = 1 exactly", "final", run(final, rho0=1e-24, gamma=False))
 add("calibrated 1e-24 + kinetic term m_k = E_k/c^2", "final", run(final, rho0=1e-24, kinetic=True))
@@ -180,7 +180,7 @@ per.to_csv(ROOT / "results/rms_per_galaxy.csv", index=False)
 pd.DataFrame(rows).to_csv(ROOT / "results/rms_tests.csv", index=False)
 with open(ROOT / "results/rms_tests.md", "w", encoding="utf-8") as fh:
     fh.write("# RMS tests of the final documented model (2026-10-10)\n\n")
-    fh.write("Model: scripts/final_model.py, the formula of docs/THEORY.md with the documented inventory. ")
+    fh.write("Model: scripts/final_model.py, the formula of archive_v1/THEORY_v1.md with the documented inventory. ")
     fh.write(f"Sample: {N_ALL} SPARC galaxies with at least 5 points (D512-2, NGC6789, UGC00634, UGC07232 dropped). ")
     fh.write("RMS in km/s, unweighted unless noted; wmedian = median of the 1/eVobs^2-weighted RMS; p16/p84 over galaxies.\n\n")
     fh.write("| group | test | N | median | wmedian | mean | p16 | p84 | note |\n|---|---|---|---|---|---|---|---|---|\n")

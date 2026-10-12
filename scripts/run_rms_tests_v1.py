@@ -134,7 +134,7 @@ add("final, late types T>=8", "by type", run(model, subset=lambda g: g["T"] >= 8
 add("final, Q<=2 and 40<i<75", "subsample", run(model, subset=lambda g: g["Q"] <= 2 and 40 < g["inc"] < 75, norm="last_std", **FINAL), "")
 
 # 7. references ---------------------------------------------------------------------
-add("MOND simple mu, a0=1.2e-10, Y*=0.5/0.7, 0 free parameters", "reference", run(mond), "~15 (MODEL_COMPARISON.md)")
+add("MOND simple mu, a0=1.2e-10, Y*=0.5/0.7, 0 free parameters", "reference", run(mond), "~15 (archive_v1/docs/MODEL_COMPARISON.md)")
 
 # 8. implied hot-gas density of the CGM term (final, last_std) ----------------------
 dens = []
@@ -166,7 +166,7 @@ pd.DataFrame(per).to_csv(ROOT / "results/rms_per_galaxy_v1.csv", index=False)
 pd.DataFrame(rows).to_csv(ROOT / "results/rms_tests_v1.csv", index=False)
 with open(ROOT / "results/rms_tests_v1.md", "w", encoding="utf-8") as fh:
     fh.write("# RMS tests of the tag-1.0 baryonic model (2026-10-10)\n\n")
-    fh.write("Model: scripts/final_baryonic_model.py, Y*=0.88, gas x2.7, CGM beta profile M=3.8, r_c=6 kpc, beta=0.68, E0=0 (docs/CONSOLIDATED_NOTES.md). ")
+    fh.write("Model: scripts/final_baryonic_model.py, Y*=0.88, gas x2.7, CGM beta profile M=3.8, r_c=6 kpc, beta=0.68, E0=0 (archive_v1/docs/CONSOLIDATED_NOTES.md). ")
     fh.write(f"Sample: {N_ALL} SPARC galaxies with at least 5 points. RMS in km/s; bias = median over galaxies of the mean residual Vobs-Vmodel; ")
     fh.write("outer_R20 = same for points beyond 20 kpc; inner_2Rd = same for points inside 2 R_disk; claimed = value quoted in the docs.\n\n")
     fh.write("| group | test | N | median | wmedian | mean | p16 | p84 | bias | outer_R20 | inner_2Rd | claimed |\n|---|---|---|---|---|---|---|---|---|---|---|---|\n")

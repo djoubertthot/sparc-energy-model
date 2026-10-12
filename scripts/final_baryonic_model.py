@@ -1,8 +1,8 @@
-"""Final model of tag 1.0: pure baryonic, no energy term (docs/CONSOLIDATED_NOTES.md).
+"""Final model of tag 1.0: pure baryonic, no energy term (archive_v1/docs/CONSOLIDATED_NOTES.md).
 
     V^2(R) = f_gas * Vgas|Vgas| + Y* * (Vdisk|Vdisk| + Vbul|Vbul|) + G * M_CGM(<R) / R
 
-- Y* = 0.88 on disk and bulge                      (docs/CONSOLIDATED_NOTES.md)
+- Y* = 0.88 on disk and bulge                      (archive_v1/docs/CONSOLIDATED_NOTES.md)
 - gas factor f_gas = 2.7, V_gas_eff = V_gas sqrt(f) (docs/GAS_FACTOR_IN_FORMULA.md)
 - E0 = 0, no energy or unknown source              (docs/MODEL_OPTION_A.md)
 - CGM: beta profile rho ~ [1 + (r/r_c)^2]^(-3 beta / 2), r_c = 6 kpc, beta = 0.68,

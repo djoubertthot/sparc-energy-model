@@ -1,12 +1,12 @@
 # RMS tests of the final documented model (2026-10-10)
 
-Model: scripts/final_model.py, the formula of docs/THEORY.md with the documented inventory. Sample: 171 SPARC galaxies with at least 5 points (D512-2, NGC6789, UGC00634, UGC07232 dropped). RMS in km/s, unweighted unless noted; wmedian = median of the 1/eVobs^2-weighted RMS; p16/p84 over galaxies.
+Model: scripts/final_model.py, the formula of archive_v1/THEORY_v1.md with the documented inventory. Sample: 171 SPARC galaxies with at least 5 points (D512-2, NGC6789, UGC00634, UGC07232 dropped). RMS in km/s, unweighted unless noted; wmedian = median of the 1/eVobs^2-weighted RMS; p16/p84 over galaxies.
 
 | group | test | N | median | wmedian | mean | p16 | p84 | note |
 |---|---|---|---|---|---|---|---|---|
 | final | budget: literal inventory, f_missing=80, no free parameter | 171 | 191.83 | 167.01 | 331.7 | 62.9 | 544.1 | rho_uniform=1.6e-22 |
 | final | budget, without internal stellar part | 171 | 189.96 | 166.47 | 330.9 | 62.5 | 543.9 |  |
-| final | calibrated: uniform part = rho0 = 1e-24 (THEORY.md) | 171 | 34.98 | 33.86 | 39.6 | 15.4 | 60.0 | hybrid, f_missing matched |
+| final | calibrated: uniform part = rho0 = 1e-24 (archive_v1/THEORY_v1.md) | 171 | 34.98 | 33.86 | 39.6 | 15.4 | 60.0 | hybrid, f_missing matched |
 | final | calibrated: uniform part = rho0 = 2e-24 (MEMORY.md) | 171 | 32.07 | 32.55 | 40.6 | 14.3 | 59.0 |  |
 | final | calibrated 1e-24, gamma = 1 exactly | 171 | 34.98 | 33.86 | 39.6 | 15.4 | 60.0 |  |
 | final | calibrated 1e-24 + kinetic term m_k = E_k/c^2 | 171 | 34.98 | 33.86 | 39.6 | 15.4 | 60.0 |  |
