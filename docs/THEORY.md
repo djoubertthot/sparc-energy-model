@@ -128,7 +128,8 @@ dépend des masses baryoniques à 0,1 dex près. a₀ est constant : c'est la ve
 
 | Observable | Lecture A, inertie modifiée | Lecture B, composante sombre |
 |---|---|---|
-| Effet de champ externe dans SPARC | prédit ; non détecté dans notre reproduction (plage dynamique 0,24 dex seulement) | absent |
+| Effet de champ externe dans SPARC | prédit, mais sous le seuil de mesure à e_N ≈ 10⁻⁴ a₀ d'après l'équation de champ ; non détecté dans notre reproduction (plage dynamique 0,24 dex seulement) | absent |
+| Vitesses de lentille à 0,5-1 Mpc, lentilles de faible masse | déclin de 30 à 50 % prédit par QUMOND avec le champ 2M++ (`results/efe_qumond_lensing.md`) | plates |
 | Binaires larges Gaia sous a₀ | déviation prédite | newtoniennes |
 | Amas de galaxies | manque un facteur 2 | ajustés |
 | Troisième pic du CMB, BAO | exige une extension relativiste (Skordis & Złośnik 2021) | prédits |

@@ -127,11 +127,15 @@ relation de Tully-Fisher baryonique cinématique. Les halos ajustés sur SPARC, 
 liberté nouvelle, donnent en médiane V(300 kpc)/V_plat = 0,68 (NFW libre), 0,66 (NFW avec
 priors ΛCDM), 0,57 (DC14), 0,46 (Burkert), contre 1,00 ± 0,05 mesuré ; la loi isolée donne 0,94.
 La loi avec effet de champ externe, formule 1D de Chae et al. 2020, ne garde la platitude à 10 %
-près que pour e_N < 4·10⁻⁵ a₀, sous le champ newtonien de l'environnement des galaxies SPARC
-(1,5·10⁻⁴) et deux ordres de grandeur sous les 0,01-0,03 de la Voie lactée ou de la détection
-revendiquée par Chae et al. 2021. Avec le résultat nul dans les disques (`results/test_efe.md`),
-les deux tests indépendants disent la même chose : la loi tient comme relation de galaxie isolée,
-sans l'effet de champ externe qu'une lecture « inertie modifiée » impose. Le rayon viriel médian
+près que pour e_N < 4·10⁻⁵ a₀ ; mais cette formule surestime l'effet. Résolue avec l'équation
+de champ QUMOND (`scripts/efe_qumond_lensing.py`, `results/efe_qumond_lensing.md`), l'effet
+n'apparaît qu'au-delà de r_t = √(G M_b/e_N), soit 300 à 1200 kpc pour le champ 2M++ des
+galaxies SPARC (1,5·10⁻⁴ a₀) : V(300 kpc)/V_plat = 0,87, 1,00 et 1,01 pour M_b = 10¹⁰, 5·10¹⁰
+et 2·10¹¹, et le déclin se produit entre 0,5 et 1 Mpc. La platitude à 300 kpc n'exclut donc pas
+une théorie de champ de type MOND ; elle la teste à 0,5-1 Mpc, où les données de Mistele et al.
+ne voient pas de déclin mais perdent leur fiabilité. Les deux lectures de la loi, dynamique
+modifiée avec son effet de champ externe ou composante sombre sans lui, ne sont pas séparées par
+les données actuelles (correction du 2026-10-12 d'une conclusion antérieure). Le rayon viriel médian
 des ajustements NFW est 165 kpc : les lentilles traversent le rayon viriel sans voir le déclin
 en √(ln r / r) qu'un halo ΛCDM y impose.
 
@@ -148,9 +152,10 @@ demande les bilans de masse de gaz à 10 % et des échantillons 3D de la taille 
 2. La fonction d'interpolation ν entière, pas seulement le régime profond : la relation
    d'accélération est mesurée de 0,003 a₀ à 30 a₀ et sa forme est une donnée.
 3. Le signe et l'amplitude de l'effet de champ externe, absent dans une lecture
-   « composante sombre », présent dans une lecture « inertie ». Les données le bornent déjà :
-   non détecté dans les disques, et exclu par la platitude des courbes de lentille à 300 kpc
-   pour e_N > 4·10⁻⁵ a₀ dans sa forme 1D ; une dérivation « inertie » doit expliquer son absence.
+   « composante sombre », présent dans une lecture « inertie ». Non détecté dans les disques,
+   où l'équation de champ ne prédit rien de mesurable à e_N ≈ 10⁻⁴ a₀ ; non testé par la lentille
+   à 300 kpc, où QUMOND prédit moins de 13 % de déclin ; décidé par la lentille à 0,5-1 Mpc des
+   lentilles de faible masse, où QUMOND prédit 30 à 50 % de déclin.
 4. La dépendance temporelle, H(z) ou Λ, testable à z = 1 à 2.
 
 Aucune des trois dérivations ne livre les quatre. C'est l'état exact du problème ouvert.

@@ -45,3 +45,5 @@ Burkert fits: radius where V falls to 80 % of its peak: median 71 kpc (60-101), 
 Acceleration law: V is flat by construction once g_bar << a0 for an isolated galaxy; with an external field e_N = 0.02 a0 (Chae et al. 2020 formula) the law becomes Newtonian with a boosted G once g_bar << e_N a0 and V declines as R^-1/2 too.
 
 Figure: results/lensing_vflat.png
+
+Note (2026-10-12): the external-field rows above use the 1D formula of Chae et al. (2020), which overstates the effect by a large factor; with the QUMOND field equation the external field only acts beyond r_t = sqrt(G M_b / e_N), i.e. 0.3-1.2 Mpc for e_N = 1.5e-4 a0, and V(300 kpc)/V_flat stays at 0.87-1.01 (results/efe_qumond_lensing.md). The bound e_N < 4e-5 a0 is a bound on the 1D formula, not on a MOND-type field theory.

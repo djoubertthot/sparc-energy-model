@@ -19,8 +19,10 @@ dans `archive_v1/` ; la release 1.0 en reste l'état de référence et n'est pas
   constante, une dispersion de concentration 2,4 fois la cosmologique, et des vitesses
   circulaires plates jusqu'à 300 kpc là où tout halo ajusté sur les disques décline de 30 à
   50 % (`paper/SPARC_HALOS_DRAFT.md`, `results/halo_*.md`, `results/lensing_vflat.md`).
-- **L'effet de champ externe** n'est pas détecté dans les disques et la platitude des
-  lentilles l'exclut pour e_N > 4·10⁻⁵ a₀ (`results/test_efe.md`, `results/lensing_vflat.md`).
+- **L'effet de champ externe** n'est pas détecté dans les disques, où l'équation de champ ne
+  prédit rien de mesurable ; la lentille à 300 kpc ne le teste pas non plus (moins de 13 % de
+  déclin prédit par QUMOND), seule la lentille à 0,5-1 Mpc le fera (`results/test_efe.md`,
+  `results/lensing_vflat.md`, `results/efe_qumond_lensing.md`).
 - **a₀ ne suit pas l'expansion.** Sur 380 galaxies à z = 0,6-5,7 en amplitude et 31 courbes
   en gaz froid à z = 1,5-4,8 en forme, a₀ ∝ H(z)ⁿ donne n = 0,05 (−0,25 à 0,30) ; a₀ est
   constant, l'échelle est celle de Λ (`docs/A0_ORIGIN.md`, `results/a0_highz*.md`).
