@@ -148,7 +148,11 @@ massifs ont leur r_t à 0,7-1,5 Mpc, là où les données s'arrêtent, et accept
 1,5·10⁻⁴. Les quatre bins combinés à moins de 1 Mpc donnent e_N < 6·10⁻⁵ a₀ et excluent
 1,5·10⁻⁴ à 3,9σ formels, environ 3σ si les systématiques sont corrélées entre rayons. Comme la
 part du champ 2M++ venant de moins de 10 Mpc n'est que 3,7·10⁻⁵, l'isolement des lentilles ne
-peut pas abaisser e_N sous 10⁻⁴. Les deux lectures de la loi sont donc séparées par ces données :
+peut pas abaisser e_N sous 10⁻⁴ (vérifié dans 2M++ le 2026-10-13, `scripts/efe_isolated_2mpp.py` :
+les 112 galaxies de 15-40 Mpc qui satisfont le critère d'isolement de Brouwer et al. ont un champ
+médian de 1,14·10⁻⁴ a₀, 16-84 % 0,9-1,4·10⁻⁴, aucune sous 5·10⁻⁵ ; l'isolement retire la part
+locale, 1,2·10⁻⁵ contre 5·10⁻⁵, pas le champ de la structure à grande échelle). Les deux
+lectures de la loi sont donc séparées par ces données :
 la lecture « composante sombre », ou une loi sans effet de champ externe, tient ; QUMOND et RMOND
 avec leur effet de champ externe sont en tension à 3σ. Le rayon viriel médian
 des ajustements NFW est 165 kpc : les lentilles traversent le rayon viriel sans voir le déclin
@@ -167,6 +171,24 @@ X-COP 2,6 a₀ : pas de a₀ unique même entre amas). Une théorie de type MOND
 composante supplémentaire, 10¹³-10¹⁴ M☉ par amas, plus concentrée que le gaz chaud ; une lecture
 « composante sombre » n'exige rien de plus.
 
+**Sous a₀ à l'échelle stellaire, les binaires larges de Gaia** (`scripts/wide_binaries.py`,
+`results/wide_binaries.md`, 2026-10-13) : 33 286 paires de séquence principale à moins de 250 pc
+(El-Badry et al. 2021 ; parallaxes à 20σ, RUWE < 1,4, alignement fortuit < 1 %, les deux étoiles
+sur la séquence principale), masses par la relation de Pecaut & Mamajek, statistique
+ṽ = v_p/v_c calibrée sur les paires à g_N > 10 a₀ (médiane 0,563, celle d'une distribution
+thermique d'excentricités en gravité newtonienne, 0,556). De 1000 à 0,1 a₀ le rapport à la
+calibration reste entre 1,00 et 1,06. Une loi locale sans effet de champ externe prédit 1,36 à
+0,3-1 a₀ et 1,66 à 0,1-0,3 a₀, contre 1,057 ± 0,022 et 1,055 ± 0,041 mesurés : exclue à 14-15σ,
+bien au-delà des 10-20 % que compagnons cachés et excentricités peuvent déplacer. QUMOND avec le
+champ galactique (e_N = 1,2 a₀, soit 1,8 a₀ après amplification) prédit 1,17 : 3 à 5σ au-dessus
+des données, mais les systématiques connues sont de cette taille, et la littérature se partage
+(Chae 2023 : amplification 1,3-1,5 en g ; Banik et al. 2024 : Newton à 16σ). Sous 0,1 a₀,
+118 paires à 30 kAU donnent 1,30 ± 0,06, entre Newton et la loi, avec une fraction de ṽ > 1 qui
+passe de 0,13 à 0,22 : le régime des paires contaminées ou non liées, qui ne tranche rien. Bilan
+pour les deux lectures : « composante sombre » prédit Newton partout et n'est contredite par
+rien ; une dynamique modifiée sans effet de champ externe est morte ici, avec effet de champ
+externe elle est en tension à 3σ à 1 Mpc et à 3-5σ ici.
+
 Bilan : la dispersion de a₀ par galaxie se décompose en distances, un tiers ; inclinaisons,
 dominantes dans quelques cas comme ESO 444-G084 ; et un résidu de l'ordre de 0,2-0,3 dex
 dans des naines bien mesurées, qui équivaut à 0,1-0,15 dex en g_obs, soit la dispersion de
@@ -184,9 +206,13 @@ demande les bilans de masse de gaz à 10 % et des échantillons 3D de la taille 
    où l'équation de champ ne prédit rien de mesurable à e_N ≈ 10⁻⁴ a₀ ; non testé par la lentille
    à 300 kpc, où QUMOND prédit moins de 13 % de déclin ; tranché par la lentille à 0,3-1 Mpc des
    lentilles de faible masse, où QUMOND prédit 30 à 50 % de déclin et où la mesure est plate :
-   e_N < 6·10⁻⁵ a₀, champ 2M++ exclu à ~3σ (`results/efe_lensing_mpc.md`). Une dérivation doit
-   donc livrer un effet de champ externe nul, ou trois fois plus faible que celui d'une équation
-   de champ QUMOND, et dire ce qui remplit les cœurs d'amas (`results/cluster_rar.md`).
+   e_N < 6·10⁻⁵ a₀, champ 2M++ exclu à ~3σ (`results/efe_lensing_mpc.md`) ; et les binaires
+   larges de Gaia excluent à 15σ une loi locale sans effet de champ externe
+   (`results/wide_binaries.md`). Une dérivation doit donc livrer un effet de champ externe qui
+   n'agit pas à 1 Mpc sur une galaxie de 10¹⁰ M☉ dans un champ de 10⁻⁴ a₀ mais efface la loi
+   dans une binaire plongée dans le champ galactique de 1,8 a₀ : aucune théorie de champ locale
+   ne fait les deux ; il reste l'inertie modifiée non locale, non calculée, et la lecture
+   « composante sombre ». Et dire ce qui remplit les cœurs d'amas (`results/cluster_rar.md`).
 4. La dépendance temporelle, H(z) ou Λ, testable à z = 1 à 2.
 
 Aucune des trois dérivations ne livre les quatre. C'est l'état exact du problème ouvert.

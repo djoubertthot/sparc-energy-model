@@ -130,7 +130,7 @@ dépend des masses baryoniques à 0,1 dex près. a₀ est constant : c'est la ve
 |---|---|---|
 | Effet de champ externe dans SPARC | prédit, mais sous le seuil de mesure à e_N ≈ 10⁻⁴ a₀ d'après l'équation de champ ; non détecté dans notre reproduction (plage dynamique 0,24 dex seulement) | absent |
 | Vitesses de lentille à 0,3-1 Mpc, lentilles de faible masse | déclin de 30 à 50 % prédit par QUMOND avec le champ 2M++ ; mesurées plates : e_N < 6·10⁻⁵ a₀, champ 2M++ exclu à 3,9σ formels, ~3σ avec les systématiques corrélées (`results/efe_lensing_mpc.md`) | plates, comme observé |
-| Binaires larges Gaia sous a₀ | déviation prédite | newtoniennes |
+| Binaires larges Gaia sous a₀ | loi locale sans effet de champ externe : ×1,36 à ×1,66 prédit entre 1 et 0,1 a₀, mesuré 1,05 ± 0,02, exclue à 15σ ; QUMOND avec le champ galactique : ×1,17, mesuré 1,06 ± 0,02, 3 à 5σ sous la prédiction mais systématiques de même taille (`results/wide_binaries.md`) | newtoniennes, comme observé jusqu'à 0,1 a₀ |
 | Amas de galaxies | manque, avec le a₀ des galaxies, un facteur 4-7 en masse entre 15 et 600 kpc, 2 à R500, 1,3 à R200 (`results/cluster_rar.md`) | ajustés |
 | Troisième pic du CMB, BAO | exige une extension relativiste (Skordis & Złośnik 2021) | prédits |
 | Amas du Boulet | difficile | naturel |
@@ -146,11 +146,18 @@ sans réglage.
 (log M_b = 10,1, r_t = 300 kpc pour le champ 2M++) reste plat jusqu'à 1 Mpc là où QUMOND
 prédit 30 à 50 % de déclin, et les quatre bins combinés donnent e_N < 6·10⁻⁵ a₀ ; comme la part
 du champ 2M++ venant de moins de 10 Mpc n'est que 3,7·10⁻⁵, l'isolement des lentilles ne peut
-pas expliquer un champ si faible. Les amas (`scripts/cluster_rar.py`) : avec le a₀ des galaxies,
+pas expliquer un champ si faible (vérifié dans 2M++ : les galaxies qui satisfont le critère
+d'isolement de Brouwer et al. gardent un champ médian de 1,1·10⁻⁴ a₀, aucune sous 5·10⁻⁵,
+`results/efe_isolated_2mpp.md`). Les amas (`scripts/cluster_rar.py`) : avec le a₀ des galaxies,
 la loi manque un facteur 4-7 en masse entre 15 et 600 kpc (CLASH), 2 à R500 et 1,3 à R200
 (X-COP), la masse manquante étant concentrée dans les cœurs. La lecture B absorbe les deux. La
-lecture A ne survit que sous une forme sans effet de champ externe, avec une composante
-supplémentaire dans les cœurs d'amas : ce n'est plus QUMOND ni RMOND tels quels.
+lecture A ne survivait que sous une forme sans effet de champ externe ; les binaires larges de
+Gaia (`scripts/wide_binaries.py`) ferment cette porte : une loi locale sans effet de champ
+externe prédit ×1,4 à ×1,7 sur la vitesse relative entre 1 et 0,1 a₀, et la mesure donne
+1,05 ± 0,02. Aucune théorie de champ locale ne peut à la fois ignorer un champ de 10⁻⁴ a₀ à
+1 Mpc et effacer la loi dans le champ galactique de 1,8 a₀. Reste à la lecture A l'inertie
+modifiée non locale de Milgrom, dont les prédictions pour ces deux tests ne sont pas calculées.
+La lecture B tient partout, au prix de devoir produire la loi.
 
 ## 7. Ce que devient E = γmc²
 

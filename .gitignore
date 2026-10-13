@@ -28,3 +28,6 @@ venv/
 # Archive junk
 __MACOSX/
 .DS_Store
+
+# large external catalogue, re-downloadable with the query in its README
+data/external/binaries/elbadry2021_d250.tsv
