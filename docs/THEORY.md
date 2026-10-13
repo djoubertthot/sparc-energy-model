@@ -156,7 +156,16 @@ Gaia (`scripts/wide_binaries.py`) ferment cette porte : une loi locale sans effe
 externe prédit ×1,4 à ×1,7 sur la vitesse relative entre 1 et 0,1 a₀, et la mesure donne
 1,05 ± 0,02. Aucune théorie de champ locale ne peut à la fois ignorer un champ de 10⁻⁴ a₀ à
 1 Mpc et effacer la loi dans le champ galactique de 1,8 a₀. Reste à la lecture A l'inertie
-modifiée non locale de Milgrom, dont les prédictions pour ces deux tests ne sont pas calculées.
+modifiée non locale de Milgrom (2022), calculée le 13 octobre (`scripts/mi_milgrom_predictions.py`) :
+le champ externe y entre avec son accélération observée et un poids θ(ω_ex/ω_in), θ(1) = 1,
+θ(0) ≈ 2-3. Pour les binaires (ω_ex/ω_in ≈ 0,01) le poids est θ(0) et le modèle prédit +5 à +9 %
+entre 1 et 0,1 a₀, contre +6 ± 2 % mesuré : compatible, là où la théorie de champ donne +17 % et
+Newton 0. Pour la lentille, les données exigent un poids θ_eff < 0,2 à 0,3-1 Mpc (θ_eff = 1 exclu
+à 7σ) ; le modèle le donne si le champ cosmique varie plus vite que les orbites test, soit en
+moins de 15 Gyr à 1 Mpc et 5 Gyr à 300 kpc, plausible pour la première, marginal pour la seconde ;
+mais il n'a ni version relativiste, donc pas de prédiction de lentille propre, ni de sens pour des
+trajectoires non périodiques. L'inertie modifiée survit aux deux tests, au premier en le
+prédisant, au second en n'y prédisant rien de ferme ; elle ne prédit rien non plus pour les amas.
 La lecture B tient partout, au prix de devoir produire la loi.
 
 ## 7. Ce que devient E = γmc²

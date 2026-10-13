@@ -30,6 +30,11 @@ dans `archive_v1/` ; la release 1.0 en reste l'état de référence et n'est pas
   circulaire newtonienne reste à 1,00-1,06 de sa calibration, là où une loi locale sans effet de
   champ externe prédit ×1,36 à ×1,66 (exclue à 15σ) et QUMOND avec le champ galactique ×1,17
   (3 à 5σ au-dessus des données, systématiques de même taille) (`results/wide_binaries.md`).
+- **L'inertie modifiée de Milgrom (2022)** passe les deux tests : +5 à +9 % prédit dans les
+  binaires pour θ(0) = 2-3 contre +6 ± 2 % mesuré, et un effet de champ externe affaibli à
+  1 Mpc parce que le poids du champ décroît quand l'orbite interne est plus lente que sa
+  variation ; sans version relativiste ni prédiction pour les amas
+  (`results/mi_milgrom_predictions.md`).
 - **Les amas** : avec le a₀ des galaxies, la loi manque un facteur 4-7 en masse entre 15 et
   600 kpc (CLASH), 2 à R500 et 1,3 à R200 (X-COP) ; le « facteur 2 » est la valeur à R500, et
   la masse manquante est concentrée dans les cœurs (`results/cluster_rar.md`).
@@ -79,6 +84,7 @@ une figure et un CSV par galaxie.
 | `efe_isolated_2mpp.py` | champ externe des galaxies isolées dans 2M++ |
 | `parse_cluster_tables.py`, `cluster_rar.py` | la loi dans les amas CLASH et X-COP, facteur manquant par rayon |
 | `wide_binaries.py` | binaires larges Gaia EDR3 sous a₀ : loi sans effet de champ externe, QUMOND, Newton |
+| `mi_milgrom_predictions.py` | inertie modifiée de Milgrom 2022 sur les binaires et la lentille à 1 Mpc |
 | `test_desitter_nu.py` | fonction ν du vide de de Sitter (Milgrom 1999) sur SPARC |
 | `a0_highz.py`, `a0_highz_coldgas.py`, `a0_highz_shape.py`, `a0_highz_shape2.py` | a₀ à haut redshift, amplitude puis forme des courbes |
 | `final_model.py`, `final_baryonic_model.py`, `run_rms_tests*.py`, `optimize_constraints.py`, `temporary_mass_budget.py` | l'audit du modèle 1.0 |

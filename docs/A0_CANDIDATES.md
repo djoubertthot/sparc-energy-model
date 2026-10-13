@@ -189,6 +189,29 @@ pour les deux lectures : « composante sombre » prédit Newton partout et n'est
 rien ; une dynamique modifiée sans effet de champ externe est morte ici, avec effet de champ
 externe elle est en tension à 3σ à 1 Mpc et à 3-5σ ici.
 
+**L'inertie modifiée de Milgrom sur ces deux tests** (`scripts/mi_milgrom_predictions.py`,
+`results/mi_milgrom_predictions.md`, 2026-10-13) : dans les modèles de Milgrom 2022 (PRD 106,
+064060), l'équation du mouvement est â(ω) μ[𝒜(ω)/a₀] = â_N(ω) avec 𝒜(ω_in) = a_in + θ(ω_ex/ω_in) a_ex,
+θ(1) = 1, θ décroissante, θ(0) ≈ 2-3 : le champ externe entre avec son accélération observée et
+un poids fixé par le rapport des fréquences, et l'effet est isotrope. Binaires : a_ex = 1,8 a₀,
+ω_ex/ω_in ≈ 0,01, poids θ(0). Le modèle prédit 1,09 et 1,10 (θ(0) = 2) ou 1,055 et 1,058
+(θ(0) = 3) dans les bins 0,3-1 et 0,1-0,3 a₀, contre 1,057 ± 0,022 et 1,055 ± 0,041 mesurés ;
+χ² sur les trois bins sous 1 a₀ : 13,4 au meilleur θ(0) = 2,3 (1,9-2,7), contre 32 pour Newton et
+38 pour QUMOND, le reste venant du dernier bin que rien n'ajuste. Lentille : avec a_ex = 0,0105 a₀
+(champ des galaxies isolées) et un poids θ_eff libre, les quatre bins donnent θ_eff < 0,2 à 2σ et
+excluent θ_eff = 1, la force d'une théorie de champ, à 7σ, parce que la forme algébrique de
+l'inertie modifiée fait sentir le champ externe dès que a_ex est une fraction de a, sans l'écran
+de la masse fantôme de QUMOND à l'intérieur de r_t. Le modèle fournit ce faible poids si
+ω_ex/ω_in > 3, c'est-à-dire si le champ cosmique varie en moins de 15 Gyr à 1 Mpc (période
+orbitale 46 Gyr) et de 5 Gyr à 300 kpc (14 Gyr) : plausible pour la première, marginal pour la
+seconde. Réserves : pas de version relativiste, donc pas de prédiction de lentille propre (on
+suppose que la lumière suit les orbites test circulaires) ; construction de Fourier qui
+présuppose des trajectoires stationnaires, ce que des orbites de 50 Gyr ne sont pas ; θ inconnue
+hors θ(1) = 1 ; l'excès de 5 % des binaires est aussi à la portée des compagnons cachés. Les amas
+ne l'atteignent pas : ni la lentille ni le gaz hydrostatique n'ont de version en inertie
+modifiée. Bilan : l'inertie modifiée survit aux deux tests, au premier en le prédisant, au second
+en n'y prédisant rien de ferme.
+
 Bilan : la dispersion de a₀ par galaxie se décompose en distances, un tiers ; inclinaisons,
 dominantes dans quelques cas comme ESO 444-G084 ; et un résidu de l'ordre de 0,2-0,3 dex
 dans des naines bien mesurées, qui équivaut à 0,1-0,15 dex en g_obs, soit la dispersion de
@@ -211,8 +234,12 @@ demande les bilans de masse de gaz à 10 % et des échantillons 3D de la taille 
    (`results/wide_binaries.md`). Une dérivation doit donc livrer un effet de champ externe qui
    n'agit pas à 1 Mpc sur une galaxie de 10¹⁰ M☉ dans un champ de 10⁻⁴ a₀ mais efface la loi
    dans une binaire plongée dans le champ galactique de 1,8 a₀ : aucune théorie de champ locale
-   ne fait les deux ; il reste l'inertie modifiée non locale, non calculée, et la lecture
-   « composante sombre ». Et dire ce qui remplit les cœurs d'amas (`results/cluster_rar.md`).
+   ne fait les deux ; il reste l'inertie modifiée non locale de Milgrom, qui fait les deux
+   (`results/mi_milgrom_predictions.md` : +5 à +9 % prédit dans les binaires pour θ(0) = 2-3 contre
+   +6 ± 2 % mesuré ; effet affaibli à 1 Mpc parce que le poids du champ externe décroît quand
+   l'orbite interne est plus lente que la variation du champ), sans version relativiste ni
+   prédiction pour les amas, et la lecture « composante sombre ». Et dire ce qui remplit les
+   cœurs d'amas (`results/cluster_rar.md`).
 4. La dépendance temporelle, H(z) ou Λ, testable à z = 1 à 2.
 
 Aucune des trois dérivations ne livre les quatre. C'est l'état exact du problème ouvert.
